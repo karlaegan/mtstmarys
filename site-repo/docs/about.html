@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About the Mount Saint Mary's Cemetery site</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#EDEFE8; --paper:#F8F8F3; --ink:#1F2A24; --ink-2:#4E5B54; --line:#B9C0B6; --line-2:#DDE1D8;
+  --accent:#2E5A45; --hit:#B94A2C; --hit-soft:#F2D6CB;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#171C19; --paper:#1F2622; --ink:#E6EAE3; --ink-2:#A7B0A8; --line:#4A5650; --line-2:#2E3733;
+    --accent:#8BC5A3; --hit:#E8825F; --hit-soft:#4C2A1F;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans",system-ui,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.55}
+a{color:var(--accent)}
+header{padding:16px 22px 12px;background:var(--paper);border-bottom:1px solid var(--line-2);display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center}
+h1{margin:0;font-size:20px;font-weight:600}
+header nav{display:flex;gap:14px;font-size:13px;margin-left:auto}
+main{max-width:70ch;margin:0 auto;padding:22px 22px 60px}
+h2{font-size:15px;font-weight:600;letter-spacing:.03em;margin:30px 0 6px}
+p{margin:8px 0}
+ul{padding-left:20px;margin:8px 0}
+li{margin:4px 0}
+.notice{background:var(--hit-soft);color:#5E2415;padding:10px 13px;border-radius:4px;font-size:13.5px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .notice{color:#F4D8CD}}
+.card{background:var(--paper);border:1px solid var(--line-2);border-radius:5px;padding:14px 16px;margin-top:10px}
+.small{font-size:12.5px;color:var(--ink-2)}
+code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>About this site</h1>
+  <nav><a href="index.html">Map view</a><a href="plat.html">Plat view</a></nav>
+</header>
+<main>
+  <p>This site publishes the burial records and lot map of Mount Saint Mary's Cemetery in Shackleford,
+     Saline County, Missouri. It is maintained by the cemetery board so that families can
+     find a grave, and so that the board can see at a glance which lots are open.</p>
+
+  <h2>What you can do here</h2>
+  <ul>
+    <li><a href="index.html">The map</a> shows every lot on the aerial photo. Search a surname
+        or a lot number, tap a lot for its record, and use the locate button to see roughly
+        where you are standing.</li>
+    <li><a href="plat.html">The plat</a> is the schematic drawing of the eight blocks and the
+        newer lettered field, the same shape as the paper maps in the board's binder.</li>
+    <li>Each lot has a stake-out sheet with its corner coordinates and dimensions, printable
+        on one page.</li>
+  </ul>
+
+  <h2>Accuracy</h2>
+  <p class="notice">Every position on this site is approximate. The lot outlines were computed
+     from the column widths written on the paper section maps and anchored at one point, the
+     northwest inside corner of the loop drive. Absolute position is good to roughly 10 to 20
+     feet; the spacing between lots follows the paper and is better than that. Do not use these
+     shapes to locate a grave for a burial, mark a monument, or settle a boundary question.
+     When the cemetery is surveyed, the surveyed corners replace this geometry and the site is
+     rebuilt from them.</p>
+
+  <h2>Where the records come from</h2>
+  <ul>
+    <li><b>List of Names sheet.</b> The board's own name list, the primary source for
+        Sections A, B and C.</li>
+    <li><b>Paper section maps.</b> The numbered grids for Sections A through H and the newer
+        lettered east field, transcribed in September 2026. Where the sheet and the paper
+        disagreed, the sheet reading was kept and the paper reading noted.</li>
+    <li><b>Plots Sold ledger.</b> Who bought which lot and when. The purchase details stay with
+        the board and are not published here; the public site says only that a lot is taken.</li>
+  </ul>
+  <p class="small">Records live in a Google Sheet the board edits. The site is rebuilt from that
+     sheet, so a correction entered there appears here within a day.</p>
+
+  <h2>Report a correction</h2>
+  <div class="card">
+    <p>Names, dates and lot numbers were read off handwritten paper, and some are certainly
+       wrong. If you can correct one, or you know of a burial that is missing, please write to
+       the board with the lot number and what should be changed.</p>
+    <p><a href="mailto:BOARD-EMAIL@example.org?subject=Cemetery%20record%20correction">
+       BOARD-EMAIL@example.org</a></p>
+    <p class="small">Board: replace this address in <code>build/templates/about.html</code>,
+       then rebuild.</p>
+  </div>
+
+  <h2>A short history</h2>
+  <p class="small">History placeholder. The board plans a paragraph or two here on the founding
+     of the parish cemetery, the opening of the newer east field, and the families who have
+     cared for it. Send text or photographs to the address above.</p>
+
+  <h2>Privacy and tracking</h2>
+  <p>This site carries no analytics, no cookies and no third-party trackers. The only outside
+     requests are for the map tiles and the web fonts. Purchaser names, prices, payment status
+     and the board's own notes are never published.</p>
+
+  <p class="small">Records as of 2026-09-04. Public build.</p>
+</main>
+</body>
+</html>

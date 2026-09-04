@@ -1,0 +1,11 @@
+{
+  "source": "local",
+  "sheet_csv_urls": {
+    "Lots": "",
+    "People": "",
+    "Sections": "",
+    "Monuments": ""
+  },
+  "site_title": "Mount Saint Mary's Cemetery",
+  "public": true
+}

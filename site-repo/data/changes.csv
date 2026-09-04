@@ -1,0 +1,2 @@
+timestamp,who,kind,lot_id,details
+2026-09-04T00:00:00,import 2026-09-04,note,,"Initial import: List of Names sheet (Sections A-C), arbitrated paper transcriptions A-H and the newer lettered field, and the Plots Sold ledger, loaded into lots/people/sections. Append-only from here."

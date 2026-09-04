@@ -1,0 +1,41 @@
+{
+ "georef_note": "Anchor placed from the cemetery's published coordinates: lat 39.13670, lon -93.30580, from Find a Grave cemetery 31354 (Mount Saint Marys Cemetery, Shackleford, Saline County, Missouri), read 2026-09-04. No GNIS record for this cemetery could be retrieved, so the Find a Grave value was used. That published point is assumed to fall at the centre of the mapped area (the A-H blocks plus the newer east field), and the anchor - the northwest inside corner of the loop drive, i.e. the northwest corner of Section A - is offset from it by half the mapped extent north and west.",
+ "published_point": {
+  "lat": 39.1367,
+  "lon": -93.3058
+ },
+ "published_point_source": "Find a Grave cemetery 31354, Mount Saint Marys Cemetery, Shackleford, Saline County, Missouri (https://www.findagrave.com/cemetery/31354/mount-saint-marys-cemetery), read 2026-09-04. A GNIS record for this cemetery could not be retrieved, so the Find a Grave value is the one used.",
+ "anchor": {
+  "description": "northwest inside corner of the loop drive = northwest corner of Section A",
+  "lat": 39.137249099826775,
+  "lon": -93.30663727122364
+ },
+ "orientation": "north-up; no rotation applied",
+ "scale": {
+  "ft_per_degree_latitude": 364232.49516104074,
+  "ft_per_degree_longitude": 283659.57565242617,
+  "latitude_used_for_scale": 39.1367,
+  "formula": "WGS84 local degree lengths at the anchor latitude; 1 ft = 0.3048 m"
+ },
+ "layout_assumptions": {
+  "ah_block_extent_ft": {
+   "east_west": 225.0,
+   "north_south": 400.0
+  },
+  "ah_block_rows": "A/B, C/D, E/F, G/H north to south, each 100 ft deep",
+  "ah_west_block_x0_ft": 0,
+  "ah_east_block": "right-aligned to the 225 ft east edge of the block row",
+  "newer_field_x0_ft": 250.0,
+  "newer_field": "15 columns I-W of 15 ft, 80 rows of 5 ft, north edge level with the north edge of Section A",
+  "lot_row_pitch_ft": 5.0,
+  "column_widths": "from the paper number grids (see sections.csv columns)",
+  "section_H_added_strip": "lots 161-170, a 5 ft column on the west edge, assumed to occupy the northernmost 10 rows",
+  "mapped_extent_ft": {
+   "east_west": 475.0,
+   "north_south": 400.0
+  }
+ },
+ "accuracy": "Approximate. Derived from the paper column widths and a single anchor placed from the cemetery's published coordinates, north-up. Absolute accuracy is on the order of 10 to 20 ft; internal spacing follows the paper maps. Replace with surveyed corners when available.",
+ "how_to_replace": "A survey replaces lots.geojson wholesale: produce polygons keyed by lot_id, set properties.geometry_source to 'survey', and set lots.csv geometry_source to 'survey' for those lots. Nothing else in the tables depends on this file.",
+ "unplaced": []
+}

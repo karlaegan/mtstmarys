@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stake-out sheet</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#EDEFE8; --paper:#F8F8F3; --ink:#1F2A24; --ink-2:#4E5B54; --line:#B9C0B6; --line-2:#DDE1D8;
+  --accent:#2E5A45; --hit:#B94A2C; --hit-soft:#F2D6CB;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans",system-ui,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.45}
+a{color:var(--accent)}
+.sheet{max-width:860px;margin:0 auto;background:var(--paper);padding:22px 26px 34px;border:1px solid var(--line-2);min-height:100vh}
+nav{display:flex;gap:14px;font-size:13px;margin-bottom:14px}
+h1{margin:0;font-size:24px;font-weight:600}
+h2{margin:22px 0 6px;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2)}
+.sub{color:var(--ink-2);font-size:13px;margin-top:3px}
+.pill{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.07em;padding:2px 8px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--ink-2)}
+table{border-collapse:collapse;width:100%;font-size:13px;margin-top:4px}
+th,td{border:1px solid var(--line-2);padding:5px 8px;text-align:left}
+th{background:#E7EAE1;font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-2)}
+td.num,th.num{font-family:"IBM Plex Mono",ui-monospace,monospace;text-align:right;font-variant-numeric:tabular-nums}
+ul{margin:6px 0 0;padding-left:18px}
+.notice{background:var(--hit-soft);color:#5E2415;padding:8px 11px;font-size:12.5px;border-radius:4px;margin:12px 0 0}
+.note{font-size:12.5px;color:var(--ink-2);margin-top:6px}
+.grid{display:flex;flex-wrap:wrap;gap:8px 34px;margin-top:6px;font-size:13px}
+.grid div span{color:var(--ink-2)}
+.sig{margin-top:26px;display:flex;gap:34px;font-size:12px;color:var(--ink-2)}
+.sig div{flex:1;border-top:1px solid var(--line);padding-top:4px}
+.miss{font-size:14px;color:var(--hit)}
+@page{size:letter portrait;margin:14mm}
+@media print{
+  body{background:#fff;font-size:11.5px}
+  .sheet{max-width:none;border:0;padding:0;min-height:0;background:#fff}
+  nav,.noprint{display:none}
+  h1{font-size:19px}
+  h2{margin:12px 0 4px}
+  table{font-size:10.5px}
+  th,td{padding:3px 5px}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <nav class="noprint"><a href="index.html">Map view</a><a href="plat.html">Plat view</a><a href="about.html">About</a></nav>
+  <div id="body"><p>Loading the lot record.</p></div>
+</div>
+<script>
+(function () {
+  "use strict";
+  var out = document.getElementById("body");
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];
+    });
+  }
+  function f(n, d) { return Number(n).toFixed(d === undefined ? 1 : d); }
+  function years(p) {
+    if (p.b && p.d) { return p.b + " to " + p.d; }
+    if (p.d) { return "died " + p.d; }
+    if (p.b) { return "born " + p.b; }
+    return "years not recorded";
+  }
+  function statusWord(st) {
+    if (st === "unusable") { return "Not usable"; }
+    if (st === "open" || st === "unknown") { return "Open"; }
+    return st === "taken" ? "Taken" : "Taken (" + st + ")";
+  }
+
+  var want = new URLSearchParams(location.search).get("lot") || "";
+
+  Promise.all([
+    fetch("data/public.json", {cache:"no-cache"}).then(function (r) { return r.json(); }),
+    fetch("data/monuments.json", {cache:"no-cache"}).then(function (r) { return r.json(); })
+      .catch(function () { return {example_only:true, monuments:[], note:"The monuments file could not be read."}; })
+  ]).then(function (res) {
+    var DATA = res[0], MON = res[1];
+    document.title = "Stake-out sheet, lot " + (want || "?");
+    var lot = DATA.lots[want];
+    if (!lot) {
+      out.innerHTML = "<h1>Lot not found</h1><p class=\"miss\">No lot " + esc(want || "(none given)") +
+        " is in the records. Open a lot from the <a href=\"index.html\">map</a> or add " +
+        "<code>?lot=F-134</code> to the address.</p>";
+      return;
+    }
+    var sec = DATA.sections[lot.s] || {};
+    var m = DATA.meta;
+    var west = lot.g[0][0], south = lot.g[0][1], east = lot.g[1][0], north = lot.g[1][1];
+    var corners = [
+      {k:"Northwest", lon:west, lat:north},
+      {k:"Northeast", lon:east, lat:north},
+      {k:"Southeast", lon:east, lat:south},
+      {k:"Southwest", lon:west, lat:south}
+    ];
+    var sp = m.state_plane && m.state_plane.reference ? m.state_plane : null;
+    if (sp) {
+      corners.forEach(function (c) {
+        c.n = sp.reference.northing_ft + (c.lat - sp.reference.lat) * m.scale.ft_per_deg_lat;
+        c.e = sp.reference.easting_ft + (c.lon - sp.reference.lon) * m.scale.ft_per_deg_lon;
+      });
+    }
+
+    var html = "<h1>Stake-out sheet, lot " + esc(want) + "</h1>" +
+      "<div class=\"sub\">" + esc(m.title) + ", " + esc(sec.name || ("Section " + lot.s)) +
+      ", lot " + lot.n + ". <span class=\"pill\">" + statusWord(lot.st) + "</span></div>" +
+      "<p class=\"notice\">These corners are computed from the paper section maps, not from a " +
+      "survey. Absolute position can be off by 10 to 20 feet. Use them to find the right part " +
+      "of the cemetery, not to set a permanent corner or settle a boundary.</p>";
+
+    html += "<h2>Lot dimensions</h2><div class=\"grid\">" +
+      "<div><span>Width, east to west</span><br>" + f(lot.dim[0]) + " ft</div>" +
+      "<div><span>Depth, north to south</span><br>" + f(lot.dim[1]) + " ft</div>" +
+      "<div><span>Area</span><br>" + f(lot.dim[0] * lot.dim[1], 0) + " sq ft</div>" +
+      "<div><span>Geometry</span><br>paper, approximate</div></div>";
+
+    html += "<h2>Corner coordinates</h2><table><thead><tr><th>Corner</th>" +
+      "<th class=\"num\">Latitude</th><th class=\"num\">Longitude</th>" +
+      (sp ? "<th class=\"num\">Northing (ft)</th><th class=\"num\">Easting (ft)</th>" : "") +
+      "</tr></thead><tbody>";
+    corners.forEach(function (c) {
+      html += "<tr><td>" + c.k + "</td><td class=\"num\">" + c.lat.toFixed(7) +
+        "</td><td class=\"num\">" + c.lon.toFixed(7) + "</td>" +
+        (sp ? "<td class=\"num\">" + f(c.n, 2) + "</td><td class=\"num\">" + f(c.e, 2) + "</td>" : "") +
+        "</tr>";
+    });
+    html += "</tbody></table>";
+    html += sp
+      ? "<p class=\"note\">Northing and easting are " + esc(sp.name || "State Plane") +
+        (sp.epsg ? " (EPSG:" + esc(sp.epsg) + ")" : "") +
+        ", carried from the reference point in georef.json by a local flat-earth offset.</p>"
+      : "<p class=\"note\">georef.json holds no State Plane definition, so only latitude and " +
+        "longitude are given. Add a <code>state_plane</code> block to georef.json with a " +
+        "reference point (lat, lon, northing_ft, easting_ft) and this sheet will carry " +
+        "northing and easting as well.</p>";
+
+    var nb = lot.nb || {};
+    html += "<h2>Neighboring lots</h2><div class=\"grid\">" +
+      ["north","south","east","west"].map(function (k) {
+        return "<div><span>" + k.charAt(0).toUpperCase() + k.slice(1) + "</span><br>" +
+          (nb[k] ? "<a href=\"stakeout.html?lot=" + encodeURIComponent(nb[k]) + "\">" +
+            esc(nb[k]) + "</a>" : "edge of the section") + "</div>";
+      }).join("") + "</div>";
+
+    var mons = (MON.monuments || []).filter(function (mm) {
+      return typeof mm.lat === "number" && typeof mm.lon === "number";
+    });
+    html += "<h2>Distance from the monuments</h2>";
+    if (!mons.length) {
+      html += "<p class=\"note\">" + esc(MON.note || "No monuments have been set.") +
+        " Once the survey monuments are recorded in the Monuments sheet, this section will " +
+        "list the distance in feet from each monument to each corner of this lot.</p>";
+    } else {
+      html += "<table><thead><tr><th>Monument</th>" +
+        corners.map(function (c) { return "<th class=\"num\">" + c.k + " (ft)</th>"; }).join("") +
+        "</tr></thead><tbody>";
+      mons.forEach(function (mm) {
+        html += "<tr><td>" + esc(mm.id) + "</td>";
+        corners.forEach(function (c) {
+          var dx = (c.lon - mm.lon) * m.scale.ft_per_deg_lon;
+          var dy = (c.lat - mm.lat) * m.scale.ft_per_deg_lat;
+          html += "<td class=\"num\">" + f(Math.sqrt(dx * dx + dy * dy)) + "</td>";
+        });
+        html += "</tr>";
+      });
+      html += "</tbody></table><p class=\"note\">Straight-line ground distances, computed " +
+        "flat-earth from the monument coordinates in the Monuments sheet.</p>";
+    }
+
+    html += "<h2>Recorded on this lot</h2>";
+    if (lot.p && lot.p.length) {
+      html += "<ul>" + lot.p.map(function (p) {
+        return "<li>" + esc(p.name) + ", " + esc(years(p)) +
+          (p.fg ? " (<a href=\"" + esc(p.fg) + "\" rel=\"noopener\">Find a Grave</a>)" : "") + "</li>";
+      }).join("") + "</ul>";
+    } else {
+      html += "<p class=\"note\">No burial is recorded on this lot.</p>";
+    }
+
+    html += "<div class=\"sig\"><div>Staked by</div><div>Date</div>" +
+      "<div>Checked by</div></div>" +
+      "<p class=\"note\">" + esc(m.title) + ". Records as of " + esc(m.generated) + ". Public build.</p>";
+    out.innerHTML = html;
+  }).catch(function (err) {
+    out.innerHTML = "<h1>Data not loaded</h1><p class=\"miss\">" + esc(err.message) +
+      ". Serve this folder over http rather than opening the file directly.</p>";
+  });
+}());
+</script>
+</body>
+</html>

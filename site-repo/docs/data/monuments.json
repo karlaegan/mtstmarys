@@ -1,0 +1,6 @@
+{
+ "generated": "2026-09-04",
+ "example_only": true,
+ "note": "The Monuments table holds only EXAMPLE rows, so no monuments have been set yet.",
+ "monuments": []
+}

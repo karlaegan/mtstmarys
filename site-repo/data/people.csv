@@ -1,0 +1,911 @@
+person_id,lot_id,first,last,birth_year,death_year,burial_date,source,confidence,note,findagrave_url,updated_by,updated_on
+P00001,A-27,Sister Mary Jo,Kennedy,,2006,,paper+sheet,high,'old' and a mark written above the cell; religious sister | given name could read 'MARY 30' or 'MARY JO'; small note 'open' and a boxed X written in the number gutter left of the cell (marginal); paper source p-03,,import 2026-09-04,2026-09-04
+P00002,A-28,Gertrude,Kennedy,1886,1950,,paper+sheet,medium,"paper reads 'Gertrude R Kennedy'; superscript '42' written after the name (cross-reference) | arbiter: a middle initial R is written after GerTRUDE at the cell edge, separate from the superscript 42; paper source p-03",,import 2026-09-04,2026-09-04
+P00003,A-29,John J.,Kennedy,1886,1979,,paper+sheet,medium,paper reads 'John F Kennedy'; paper source p-03,,import 2026-09-04,2026-09-04
+P00004,A-30,Ellen,Keenan,1881,1959,,paper+sheet,medium,paper reads 'Ellen A KEENAN'; paper source p-03,,import 2026-09-04,2026-09-04
+P00005,A-31,Robert E.,Keenan,1881,1973,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00006,A-32,Patrick,Kennedy,1833,1906,,paper+sheet,high,'K' and a small box drawn at the lot number; small '41' after the name | superscript '41' after the name; a 'K' and a small empty box drawn at the left of the cell (marginal); paper source p-03,,import 2026-09-04,2026-09-04
+P00007,A-34,Elizabeth,McKeever,1846,1922,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00008,A-35,James,McKeever,1830,1906,,paper+sheet,high,"arbiter: death year is 1906 (final digit is a looped 6, not the pointed 4 used elsewhere in this hand); superscript after the name reads 'AD', not a lot cross-reference number; paper source p-03",,import 2026-09-04,2026-09-04
+P00009,A-36,John J.,McKeever,1874,1926,,paper+sheet,high,paper death year 1924; small '39' written above right of the name | superscript '39' after the name; paper source p-03,,import 2026-09-04,2026-09-04
+P00010,A-37,Peter,Mathews,,,,paper+sheet,high,could also read Mathews or Matthews; paper source p-03,,import 2026-09-04,2026-09-04
+P00011,A-38,Bridget,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00012,A-39,Bridget,Balf,,1899,,paper+sheet,high,surname could read Balf or Ralf | surname could be BALE; paper source p-03,,import 2026-09-04,2026-09-04
+P00013,A-40,John P.,Balf,,1888,,paper+sheet,medium,"paper reads 'John BALF'; small annotation after the name, reads like 'p 34' or 'p 3rd' | surname could be BALE; a superscript mark follows the name, possibly '34'; paper source p-03",,import 2026-09-04,2026-09-04
+P00014,A-43,John,,,,,sheet,high,sheet only; no matching entry on the paper map,,import 2026-09-04,2026-09-04
+P00015,A-47,Erin? Naomi?,,,,,paper+sheet,medium,"paper reads 'Naomi KENNEDY'; later hand over an erased entry; 'EREN?' written above and 'K B' at right; the erased text under it reads like KENNEDY NANCY | 'open ?' written small at top left of cell and a 'K' plus boxed X at top right; 'NAOMI' appears written twice, the second overwritten; paper source p-03",,import 2026-09-04,2026-09-04
+P00016,A-48,Don,,,1922,,paper+sheet,medium,"paper reads 'Donald KENNEDY'; year(s) supplied from the paper map; arbiter: line above reads 'DOD 5-27 = 1922-' (third letter is D, not N; date of death 27 May 1922); year is 1922 - the final digit matches the 2 of '27' and lacks the closed loop of the 6 in '1926' one row below; paper source p-03",,import 2026-09-04,2026-09-04
+P00017,A-49,Margaret,Kennedy,1849,1926,,paper+sheet,high,an 'L' is pencilled at the top right of the cell; paper source p-03,,import 2026-09-04,2026-09-04
+P00018,A-50,John,Kennedy,1841,1899,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00019,A-52,Bernard & John,Flynn,,,,paper+sheet,medium,paper reads 'Bernard FLYNN'; two names in one lot (Bernard & John); a boxed 'K' is drawn at the right edge of the cell | two names in this cell; a boxed 'K' is drawn at the right edge of the cell; paper source p-03,,import 2026-09-04,2026-09-04
+P00020,A-52,John,FLYNN,,,,paper,high,two names in one lot (Bernard & John) | two names in this cell; a boxed 'K' is drawn at the right edge of the cell; paper source p-03,,import 2026-09-04,2026-09-04
+P00021,A-53,Peter,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00022,A-54,Robert,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00023,A-55,Richard,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00024,A-56,Agnes,Flynn,,1900,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00025,A-57,James,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00026,A-58,Patrick,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00027,A-59,Jane,Flynn,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00028,A-60,Michael,Flynn,,1884,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00029,A-61,Marguerite C.,Schnieders,1895,1974,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00030,A-62,Arthur H.,Schnieders,1899,1980,,paper+sheet,high,"birth year overwritten, could read 1877 or 1879; paper source p-03",,import 2026-09-04,2026-09-04
+P00031,A-63,Lena,John,1860,1927,,paper+sheet,high,"surname written 'John' (family name), not a given name; paper source p-03",,import 2026-09-04,2026-09-04
+P00032,A-64,Barbara,John,1819,1901,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00033,A-65,Peter,John,1818,1892,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00034,A-66,George/Barbara D.,John,?/1848,1891,,paper+sheet,medium,"paper reads 'Barbara D JOHN'; paper birth year 1848; paper death year 1885; two names in this cell | arbiter: the mark after BARBARA is a capital D (middle initial), not an empty box; paper source p-03",,import 2026-09-04,2026-09-04
+P00035,A-66,George,JOHN,,1891,,paper,high,two names in this cell; only the one year 1891 given for George | arbiter: both passes read both names; only the pairing differed; paper source p-03,,import 2026-09-04,2026-09-04
+P00036,A-67,Daniel,Desmond,1892,1892,,paper+sheet,medium,paper reads 'Daniel R Desmond'; year(s) supplied from the paper map; infant (born and died 1892); superscript 'R' after the given name | arbiter: superscript R confirmed; paper source p-03,,import 2026-09-04,2026-09-04
+P00037,A-68,Julia,Sadewhite,1889,1972,,paper+sheet,medium,"paper reads 'Curtis Sadewhite'; paper birth year 1916; paper death year 1994; marginal - written in the top margin of p-03 above the column-width labels for columns 4-5, not inside any cell; no lot number given | arbiter: a real entry, assigned to the Sadewhite family plot (lots 68-69); lot assignment uncertain; paper source p-03",,import 2026-09-04,2026-09-04
+P00038,A-68,Julia,Sadewhite,1889,1972,,paper,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00039,A-69,John,Sadewhite,1888,1917,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00040,A-69,Lucille,Sadewhite,1917,1991,,paper,low,"marginal - written in the top margin of p-03 on the line above 'SADEWHITE CURTIS'; surname not written, presumed Sadewhite; no lot number given | arbiter: a real entry, assigned to the Sadewhite family plot (lots 68-69); lot assignment uncertain; paper source p-03",,import 2026-09-04,2026-09-04
+P00041,A-71,Arthur,Schnieders,1927,1938,,paper+sheet,medium,paper reads 'Arthur Denis Schnieders'; year(s) supplied from the paper map; '+3 Schnieders babies' written on the line above the name in the same cell; paper source p-03,,import 2026-09-04,2026-09-04
+P00042,A-79,Mary,Frain,,,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00043,A-80,Michael,Frain,1834,1921,,paper+sheet,high,paper source p-03,,import 2026-09-04,2026-09-04
+P00044,A-92,Joseph,Chamderlain,,,,paper+sheet,medium,paper reads 'Joseph C Chamberlain'; surname written so the b looks like a d ('Chamderlain'); spelled CHAMBERLAIN elsewhere on p-04 | surname likely Chamberlain (written with a 'd'); initial could be G; paper source p-03,,import 2026-09-04,2026-09-04
+P00045,A-93,Mary-Ann,Chamderlain,,1876,,paper+sheet,medium,paper reads 'Mary-Ann Chamberlain'; surname written so the b looks like a d ('Chamderlain') | surname likely Chamberlain; paper source p-03,,import 2026-09-04,2026-09-04
+P00046,A-94,Augustus,Chamderlain,1844,1897,,paper+sheet,medium,paper reads 'Augustus Chamberlain'; surname written so the b looks like a d ('Chamderlain') | surname likely Chamberlain; paper source p-03,,import 2026-09-04,2026-09-04
+P00047,A-98,Rev,James,1857,1893,,paper+sheet,medium,paper reads 'Rev James MULVEY'; a brace joins lots 98 and 99; spans lots 98-99 | spans lots 98-99 (brace drawn across both cells); paper source p-03,,import 2026-09-04,2026-09-04
+P00048,A-99,,Mulvey,1857,1893,,paper+sheet,medium,paper reads 'Rev James MULVEY'; year(s) supplied from the paper map; a brace joins lots 98 and 99; spans lots 98-99 | spans lots 98-99 (brace drawn across both cells); paper source p-03,,import 2026-09-04,2026-09-04
+P00049,A-103,Margaret,Flynn,1850,1900,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00050,A-109,Noel,Chamberlain,1894,1948,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00051,A-111,Thomas,Peilletier,,1870,,paper+sheet,high,surname as written; likely Pelletier | surname could be Pelletier / Peillelier; paper source p-04,,import 2026-09-04,2026-09-04
+P00052,A-112,TG,Unk,,,,sheet,high,sheet only; no matching entry on the paper map,,import 2026-09-04,2026-09-04
+P00053,A-114,Sarah,Schreckler,1865,1874,,paper+sheet,high,surname could read Schreckler or Schreckier | surname could be Schreckler or Shreckler; paper source p-04,,import 2026-09-04,2026-09-04
+P00054,A-119,JM,UNK,,,,sheet,high,sheet only; no matching entry on the paper map,,import 2026-09-04,2026-09-04
+P00055,A-120,Rev Edward,Hamill,1814,1889,,paper+sheet,high,death year could be 1899; dates written across the surname; paper source p-04,,import 2026-09-04,2026-09-04
+P00056,A-128,Christine,Hannahan,,,,paper+sheet,high,surname could read Hannahan or Hanrahan | surname could be Hanrahan; paper source p-04,,import 2026-09-04,2026-09-04
+P00057,A-129,James,Hannahan,1844,1907,,paper+sheet,high,surname could read Hannahan or Hanrahan | surname could be Hanrahan; paper source p-04,,import 2026-09-04,2026-09-04
+P00058,A-130,John,Purcell,1835,,,paper+sheet,high,"birth year only, death blank on the sheet | only a birth year written, followed by a dash; paper source p-04",,import 2026-09-04,2026-09-04
+P00059,A-131,Matilda,Purcell,,,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00060,A-132,Baby,Trigg,,,,paper+sheet,high,"infant, recorded only as 'Baby' | written 'Trigg - Baby' (infant); paper source p-04",,import 2026-09-04,2026-09-04
+P00061,A-133,Peter,Trigg,,,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00062,A-134,Stephen,Trigg,1829,1878,,paper+sheet,medium,"paper reads 'Stephen W Trigg'; first year overwritten/corrected; reads like 1829 or 1837 | birth year scribbled over and illegible, possibly 1827 or 1837; paper source p-04",,import 2026-09-04,2026-09-04
+P00063,A-135,Margaret,Trigg,1832,1916,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00064,A-136,Thomas,Trigg,1858,1907,,paper+sheet,medium,paper reads 'Thomas H Trigg'; paper source p-04,,import 2026-09-04,2026-09-04
+P00065,A-137,Sarrah,Trigg,1902,1902,,paper+sheet,high,year(s) supplied from the paper map; spelled 'Sarrah' as written | single year 1902 written above the name; unclear whether birth or death; paper source p-04,,import 2026-09-04,2026-09-04
+P00066,A-138,Margaret,Trigg,1903,1909,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00067,A-139,Thomas,Chamderlain,,,,paper+sheet,medium,paper reads 'Thomas Chamberlain'; surname written so the b looks like a d ('Chamderlain') | surname likely Chamberlain (written with a 'd'); paper source p-04,,import 2026-09-04,2026-09-04
+P00068,A-154,John,Trigg,,,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00069,A-155,Steve,Trigg,,,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00070,A-156,George,Trigg,,,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00071,A-161,John,OBRION,1839,1875,,paper,medium,"written in the right margin of p-04 next to the top of this strip, not in a cell: '* 5' FROM sect A / 5' FROM sect B / HEADSTONE FOR JOHN OBRION 1839-1875'; the headstone stands in the shared 10' strip, exact lot uncertain | marginal - note written outside the lot grid in the strip east of column 9, keyed by an asterisk on the column heading: '* 5' FROM sect A / 5' FROM sect B / HEADSTONE FOR / JOHN OBRION 1839-1875'; no lot number given, assigned to 161 (north end of the column). Surname probably O'Brien; paper source p-04",,import 2026-09-04,2026-09-04
+P00072,A-164,Blanche,LaForrest,1853,1939,,paper+sheet,high,surname as written; could be LaForrest / LaForest; paper source p-04,,import 2026-09-04,2026-09-04
+P00073,A-165,Alfred,LaForrest,1842,1911,,paper+sheet,high,surname as written; could be LaForrest / LaForest; paper source p-04,,import 2026-09-04,2026-09-04
+P00074,A-170,William,Zans,,1913,,paper+sheet,medium,paper reads 'Williams Zans'; surname could read Zans or Zaus; given name written 'Williams' | surname could be Zaus or Zans; given name could be William; paper source p-04,,import 2026-09-04,2026-09-04
+P00075,A-171,Margaret,Zans,,1896,,paper+sheet,high,surname could read Zans or Zaus | surname could be Zaus or Zans; paper source p-04,,import 2026-09-04,2026-09-04
+P00076,A-172,James,,,,,paper+sheet,high,"given name only, written right-aligned under the Zans entries; surname presumed Zans but not written | only a given name written, right side of cell; probably the Zans family of lots 170-171; paper source p-04",,import 2026-09-04,2026-09-04
+P00077,A-173,John,,,,,paper+sheet,high,"given name only, written right-aligned under the Zans entries; surname presumed Zans but not written | only a given name written, right side of cell; probably the Zans family of lots 170-171; paper source p-04",,import 2026-09-04,2026-09-04
+P00078,A-175,,King,,,,paper+sheet,high,surname only; paper source p-04,,import 2026-09-04,2026-09-04
+P00079,A-176,,King,,,,paper+sheet,high,surname only; paper source p-04,,import 2026-09-04,2026-09-04
+P00080,A-179,James,Mitchell,1792,1852,,paper+sheet,high,paper source p-04,,import 2026-09-04,2026-09-04
+P00081,B-7,Martha S.,Robertson,1850,1935,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00082,B-9,Lena,Schwartz,,1882,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00083,B-15,Edward,Stockman,1896,1897,,paper+sheet,medium,paper reads 'Edward R Stockman'; trailing R written outside the cell to the right; paper source p-07,,import 2026-09-04,2026-09-04
+P00084,B-17,Frank,Hillebrand,1821,1892,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00085,B-18,Theresa,Hillebrand,1822,1906,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00086,B-19,Lena,Henke,,1891,,paper+sheet,high,death year runs into the border; could be 1897 or 1899 | death year could read 1897; paper source p-07,,import 2026-09-04,2026-09-04
+P00087,B-19,INFANT,STOCKMAN,,1910,,paper,high,"written as INFANT; year 1910 written outside cell at right | written on the line above Henke, Lena in the same cell; 'INFANT' stands in place of a given name; paper source p-07",,import 2026-09-04,2026-09-04
+P00088,B-20,Charles,Stockman,,1887,,paper+sheet,high,could be 1881 | death year could read 1881; paper source p-07,,import 2026-09-04,2026-09-04
+P00089,B-31,John,Murphy,1855,1936,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00090,B-32,Annie/Jone,Murphy,1866,1879,,paper+sheet,medium,paper reads 'ANNIE MURPHY'; second name in lot 32 | written on the line above in the same cell; paper source p-07,,import 2026-09-04,2026-09-04
+P00091,B-32,Jone,MURPHY,1825,1923,,paper,medium,"""Jane"" struck through and ""JONE"" written above; years could pair as Annie 1866-1923 / Jane 1825-1879 | 'Jane' struck through and 'JONE' written above it; could be Jane; paper source p-07",,import 2026-09-04,2026-09-04
+P00092,B-33,John/Mary,Downing/Lynch,??/1845,??/1885,,sheet,high,sheet only; no matching entry on the paper map,,import 2026-09-04,2026-09-04
+P00093,B-33,JOHN,DOWNING,,,,paper,high,"written above the Lynch entry in the same cell | written on the line above Lynch, Mary in the same cell; paper source p-07",,import 2026-09-04,2026-09-04
+P00094,B-33,Mary,Lynch,1845,1885,,paper,high,years written stacked 1845 over 1885; paper source p-07,,import 2026-09-04,2026-09-04
+P00095,B-34,Jeremiah,Lynch,1867,1874,,paper+sheet,high,paper death year 1879; paper source p-07,,import 2026-09-04,2026-09-04
+P00096,B-35,"Maggie, Dennis",Lynch,1869,1870,,paper+sheet,medium,"paper reads 'DENNIS LYNCH'; paper birth year 1849; arbiter: the two stacked years are written on the DENNIS line immediately after the given name - the same construction as 'Lynch, Mary 1845/1885' at lot 33 - so they are Dennis's range; birth reads 1849 (final digit is a looped 9, not the flat-topped 5 of 1845 at lot 33); paper source p-07",,import 2026-09-04,2026-09-04
+P00097,B-35,MAGGIE,LYNCH,,,,paper,medium,"given name only, written on the line above DENNIS; surname assumed LYNCH | arbiter: the stacked year pair in this cell belongs to DENNIS (written on his line, as at lot 33), so MAGGIE has no years; paper source p-07",,import 2026-09-04,2026-09-04
+P00098,B-36,John,Hurley,,1901,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00099,B-37,Mary,Lynch,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00100,B-38,Jeremiah,Lynch,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00101,B-39,Margaret,Lynch,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00102,B-40,"Johnnie, Jeremiah",Lynch,,,,paper+sheet,medium,paper reads 'Jeremiah LYNCH'; written on the line above in the same cell; paper source p-07,,import 2026-09-04,2026-09-04
+P00103,B-40,Johnnie,LYNCH,,,,paper,high,"given name only, written above Jeremiah; surname assumed LYNCH; paper source p-07",,import 2026-09-04,2026-09-04
+P00104,B-72,Mary,Gallagher,,1884,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00105,B-73,Mrs. William,Setchfield,,,,paper+sheet,high,"recorded as Mrs. William | written as 'Setchfield, Mrs. William'; paper source p-07",,import 2026-09-04,2026-09-04
+P00106,B-74,Johnnie,Donohoe,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00107,B-75,Ann,Gallagher,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00108,B-76,Ellen,Horgan,,1877,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00109,B-77,Julia,Downing,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00110,B-78,John,Downing,,,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00111,B-79,John,Hays,,,,paper+sheet,high,"a struck-through word (reads ""METAL"") is written across the lot 79 / lot 99 boundary | a crossed-out word reading 'METAL' is written across the cell edge between lots 99 and 79; paper source p-07",,import 2026-09-04,2026-09-04
+P00112,B-80,"Johnnie,Katie",Hays,,,,paper+sheet,medium,"paper reads 'Johnnie Hays'; given name only, written above Katie; surname assumed Hays; paper source p-07",,import 2026-09-04,2026-09-04
+P00113,B-80,Katie,Hays,,,,paper,high,written on the line above in the same cell; paper source p-07,,import 2026-09-04,2026-09-04
+P00114,B-85,Bridget,Moran,1853,1929,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00115,B-87,Christopher,Fitzsimmons,,1880,,paper+sheet,high,"written as ""Fitz simmons"" on two words | surname written as two words 'Fitz Simmons'; paper source p-07",,import 2026-09-04,2026-09-04
+P00116,B-88,"Patrick, James",Fitzsimmons,,,,paper+sheet,medium,paper reads 'JAMES Fitzsimmons'; paper source p-07,,import 2026-09-04,2026-09-04
+P00117,B-88,PATRICK,FITZSIMMONS,,,,paper,high,written on the line above in the same cell; paper source p-07,,import 2026-09-04,2026-09-04
+P00118,B-89,Katie/Ellen,Dunbar/Raines,??/1854,??/1899,,sheet,high,sheet only; no matching entry on the paper map,,import 2026-09-04,2026-09-04
+P00119,B-89,KATIE,DOWNING,,,,paper,medium,"faint, written above RAINES; could be DOWNING or DOWNINE | faint pencil on the line above; could be Downing or Downung; paper source p-07",,import 2026-09-04,2026-09-04
+P00120,B-89,ELLEN,RAINES,1854,1899,,paper,high,years written spilling into the next column; paper source p-07,,import 2026-09-04,2026-09-04
+P00121,B-90,"Catherine, Thomas",Moran,,,,paper+sheet,medium,paper reads 'CATHERINE MORAN'; written on the line above in the same cell; paper source p-07,,import 2026-09-04,2026-09-04
+P00122,B-90,THOMAS,MORAN,,,,paper,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00123,B-91,Michael,Moran,,,,paper+sheet,high,"comma inserted after MORAN, giving the look of ""MORANE"" | surname written 'MORANE'; could be MORANE rather than MORAN; paper source p-07",,import 2026-09-04,2026-09-04
+P00124,B-93,Joseph D,Murphy Jr,,,,paper+sheet,medium,paper reads 'JOSEPH D JR MURPHY'; suffix JR as written; paper source p-07,,import 2026-09-04,2026-09-04
+P00125,B-94,Matthew,Ryan,,1891,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00126,B-95,Dorothy,Ryan,1854,1889,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00127,B-96,Edward,Ryan,1876,1882,,paper+sheet,high,paper death year 1889; death year overwritten; could be 1888 | final digit of the death year is overwritten; could be 1888; paper source p-07,,import 2026-09-04,2026-09-04
+P00128,B-97,Michael,Ryan,,1867,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00129,B-98,Mathew,Ryan,,,,paper+sheet,high,"spelled Mathew here, Matthew at lot 94 | spelled 'Mathew' here, 'Matthew' at lot 94; paper source p-07",,import 2026-09-04,2026-09-04
+P00130,B-99,Margaret,Ryan,,1869,,paper+sheet,high,paper source p-07,,import 2026-09-04,2026-09-04
+P00131,B-103,James G.,Moore,,1872,,paper+sheet,high,final initial could be C | final initial could be C rather than G; paper source p-08,,import 2026-09-04,2026-09-04
+P00132,B-107,Mary C,Baxter,,,,paper+sheet,high,final initial could be G | final initial runs into the page edge; could be G; paper source p-08,,import 2026-09-04,2026-09-04
+P00133,B-108,Mary C,Hughes,1837,1908,,paper+sheet,medium,paper reads 'Mary Hughes'; paper source p-08,,import 2026-09-04,2026-09-04
+P00134,B-109,Patrick,Hughes,1822,1911,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00135,B-110,Annie,Adams,,,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00136,B-111,Michael,Flynn,1817,1880,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00137,B-112,Margaret,Flynn,1875,1876,,paper+sheet,medium,paper reads 'Lettie FLYNN'; second given name written to the right of Margaret in the same cell | arbiter: reads Lettie (second letter is an e with an exit stroke); could be Lottie; paper source p-08,,import 2026-09-04,2026-09-04
+P00138,B-113,Arthur & Mary Ethel,Flynn,,,,paper+sheet,medium,"paper reads 'Arthur FLYNN'; written on the line above; surname taken from FLYNN on the lower line | arbiter: the word after Arthur is IGNATIUS (a fourth given name), not 'INFANTS'; paper source p-08",,import 2026-09-04,2026-09-04
+P00139,B-113,Ethelene,FLYNN,,,,paper,medium,written 'ETHelene' after 'Mary &' | arbiter: reads Ethelene; could be Etheline or ET Helene; paper source p-08,,import 2026-09-04,2026-09-04
+P00140,B-113,IGNATIUS,FLYNN,,,,paper,high,"written on the line above, after Arthur; surname taken from FLYNN on the lower line | arbiter: a real fourth name in this cell that pass 1 misread as the word 'INFANTS'; paper source p-08",,import 2026-09-04,2026-09-04
+P00141,B-113,Mary,FLYNN,,,,paper,high,"cell reads FLYNN, Mary & Arthur, INFANTS | written on the line above; surname taken from FLYNN on the lower line of the same cell; paper source p-08",,import 2026-09-04,2026-09-04
+P00142,B-114,Edward Richard,Flynn,,,,paper+sheet,medium,paper reads 'Edward FLYNN'; written on the line above; 'Margaret ... Hughes' on the lower line is struck through and appears to have been moved to lot 115; paper source p-08,,import 2026-09-04,2026-09-04
+P00143,B-114,Richard,FLYNN,,,,paper,high,written on the line above; surname taken from FLYNN on the lower line; paper source p-08,,import 2026-09-04,2026-09-04
+P00144,B-115,Margaret,Hualtes,1857,1874,,paper+sheet,medium,"paper reads 'MARGARET HUGHES'; years written as 1857 1874 without a dash | faint pencil; years written '1857 1874' without a dash; appears moved here from lot 114 where 'Margaret ... Hughes' is struck through | arbiter: this entry was first written in lot 114 and struck through there, then rewritten here; no separate row kept at 114; paper source p-08",,import 2026-09-04,2026-09-04
+P00145,B-123,Michael,Coalbert,,,,paper+sheet,high,"UNK written above the name (death year unknown); could be COLBERT | written 'C.CALBERT, Michael' with 'UNK' on the line above; could be COALBERT or Colbert; paper source p-08",,import 2026-09-04,2026-09-04
+P00146,B-127,Margaret,Jackson,1863,1942,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00147,B-128,John,Flynn,,,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00148,B-129,Catherine,Flynn,,1876,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00149,B-130,James,Flynn,,1852,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00150,B-131,Elizabeth,Langen,,,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00151,B-132,William F.,?,,,,paper+sheet,medium,"paper reads 'WILLIAM F '; given name only; continues the LANGEN family plot at 131-133; surname assumed LANGEN | faint pencil, no surname written; likely LANGEN from lot 131 above; paper source p-08",,import 2026-09-04,2026-09-04
+P00152,B-132,John,,,,,paper,medium,"given name only with a superscript mark (possibly 2 or ?); surname assumed LANGEN | faint pencil, no surname written; likely LANGEN from lot 131 above; paper source p-08",,import 2026-09-04,2026-09-04
+P00153,B-133,,Ratherwee,,,,paper+sheet,medium,"paper reads 'KATHERINE E. '; given name only; first letter unclear, reads like R or P but KATHERINE is the likely reading; surname assumed LANGEN | faint pencil, no surname; letters read 'RATHERINE E.', most likely KATHERINE E.; paper source p-08",,import 2026-09-04,2026-09-04
+P00154,B-139,John,Moloney Jr.,1843,1864,,paper+sheet,medium,paper reads 'John Jr Moloney'; paper source p-08,,import 2026-09-04,2026-09-04
+P00155,B-140,John,Moloney,1798,1882,,paper+sheet,high,paper source p-08,,import 2026-09-04,2026-09-04
+P00156,C-3,May,McCombs,1890,1953,,paper+sheet,high,"paper birth year 1896; superscript index 15; arbiter: birth year is 1896 - the fourth digit is a closed-loop 6, not a 0; paper source p-10",,import 2026-09-04,2026-09-04
+P00157,C-4,Catherine,McDonough,1857,1926,,paper+sheet,high,written Mc with raised c; superscript 14 | index 14; paper source p-10,,import 2026-09-04,2026-09-04
+P00158,C-5,John,McDonough,1857,1945,,paper+sheet,high,written Mc with raised c; paper source p-10,,import 2026-09-04,2026-09-04
+P00159,C-6,Edna C.,BARR,,,,paper+sheet,medium,boxed B in left margin; 1895 written over the entry; second Barr Edna C. also at lot 9 | 1895 written to the right; index mark; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00160,C-6,Margaret,McDonough,,,,paper+sheet,high,written above the Barr entry in same cell | written on line above BARR EDNA C in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00161,C-7,Catherine,Barr,1859,1938,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00162,C-8,Richard,Barr,1857,1935,,paper+sheet,high,year(s) supplied from the paper map; circled 11 after name | circled II or III to the right; paper source p-10,,import 2026-09-04,2026-09-04
+P00163,C-9,Edna,Barr,1902,1987,,paper+sheet,medium,paper reads 'Edna C. BARR'; year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00164,C-10,Rose Ann,Barr,1894,1994,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00165,C-11,Mary,MORRIS,1914,1966,,paper+sheet,medium,years written as superscripts 1914 / 1966 | death year could be 1960 or 1964; index 31; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00166,C-11,Delia,Woodsmall,1900,1978,,paper+sheet,high,written above the Morris entry in same cell | written on line above MORRIS MARY in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00167,C-12,John,Barr,1860,1942,,paper+sheet,high,year(s) supplied from the paper map; superscript 10 | index 10; paper source p-10,,import 2026-09-04,2026-09-04
+P00168,C-13,Bettie,Barr,1869,1934,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00169,C-14,,BARR,,,,paper+sheet,high,babies (plural); circled 7; written above the Joseph entry | written on line above; circled 7; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00170,C-14,Joseph L.,BARR,,,,paper+sheet,high,middle initial could be L or C; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00171,C-15,Mary,Barr,,,,paper+sheet,medium,paper reads 'Mary L. BARR'; dates written as 12-4-92 and 2-7-96; circled 6 | faint dates 12-4-92 and ?-7-1-96; circled 6; paper source p-10,,import 2026-09-04,2026-09-04
+P00172,C-17,Hazel,Barr,1904,1996,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00173,C-18,Holmes,Barr,1899,1975,,paper+sheet,high,year(s) supplied from the paper map; Holmes used as given name; paper source p-10,,import 2026-09-04,2026-09-04
+P00174,C-19,Mary,Schepers,1895,1896,,paper+sheet,high,year(s) supplied from the paper map; dates written 9/30/95 1895 and 12/9/96 1896; circled 5; likely an infant | dates written as 9/30/95 1895 12/9/96 1896; circled 5; paper source p-10,,import 2026-09-04,2026-09-04
+P00175,C-20,Mike,Summers,,,,paper+sheet,high,paper source p-10,,import 2026-09-04,2026-09-04
+P00176,C-21,Lizzie,Loftus,1845,1926,,paper+sheet,high,year(s) supplied from the paper map; superscript 37 | index 37; paper source p-10,,import 2026-09-04,2026-09-04
+P00177,C-22,Ellen,Loftus,1839,1924,,paper+sheet,high,year(s) supplied from the paper map; superscript 36 | index 36; paper source p-10,,import 2026-09-04,2026-09-04
+P00178,C-23,Teresa,Loftus,1856,1923,,paper+sheet,high,year(s) supplied from the paper map; superscript 34 | index 34; paper source p-10,,import 2026-09-04,2026-09-04
+P00179,C-24,Agnes,Loftus,,1916,,paper+sheet,high,year(s) supplied from the paper map; superscript 33 | index 33; paper source p-10,,import 2026-09-04,2026-09-04
+P00180,C-25,"Bridget, Patrick",Loftus,,,,paper+sheet,medium,paper reads 'Bridget LOFTUS'; written above the Patrick entry in same cell | written on line above LOFTUS PATRICK in same cell; paper source p-10,,import 2026-09-04,2026-09-04
+P00181,C-25,Patrick,LOFTUS,,,,paper,high,superscript 32 | index 32; paper source p-10,,import 2026-09-04,2026-09-04
+P00182,C-26,Peter,Holmes,1857,1917,,paper+sheet,high,year(s) supplied from the paper map; superscript 31 | index 31; paper source p-10,,import 2026-09-04,2026-09-04
+P00183,C-27,Mary,Campbell,1865,1890,,paper+sheet,high,year(s) supplied from the paper map; superscripts 29 and 30 | index 29 or 30; paper source p-10,,import 2026-09-04,2026-09-04
+P00184,C-28,Thomas,CAMPBELL,,,,paper+sheet,high,written above the Holmes entry in same cell | written on line above HOLMES Bridget in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00185,C-28,Bridget,HOLMES,,,,paper+sheet,high,sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00186,C-29,Patrick,Holmes,1821,1907,,paper+sheet,high,year(s) supplied from the paper map; superscript 27 | index 27 or 28; paper source p-10,,import 2026-09-04,2026-09-04
+P00187,C-30,Salina,Chamberlain,1874,1895,,paper+sheet,high,year(s) supplied from the paper map; superscript 27; given name could be Salina or Selina | index 27; paper source p-10,,import 2026-09-04,2026-09-04
+P00188,C-31,Chester,Chamberlain,,,,paper+sheet,high,written above the Mitchell entry in same cell; circled 25 | written on line above Mitchell JAMES in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00189,C-31,JAMES,Mitchell,,,,paper+sheet,high,superscript 26 | index 26; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00190,C-32,Emily,Mitchell,1861,,,paper+sheet,high,year(s) supplied from the paper map; death year not written; paper source p-10,,import 2026-09-04,2026-09-04
+P00191,C-33,James,Mitchell,1859,1926,,paper+sheet,high,"year(s) supplied from the paper map; superscript index 24; arbiter: the final digit is a looped 6, clearly different from the angular 4 of the index 24 written beside it; paper source p-10",,import 2026-09-04,2026-09-04
+P00192,C-34,Rick,Wissel,,,,paper+sheet,medium,paper reads 'Ricky WESSEL'; heavy later ink; first name could be Ricky or Recky; compare lot 56 | given name heavily overwritten; could be RICKY or REGY; written given-name-first; paper source p-10,,import 2026-09-04,2026-09-04
+P00193,C-35,Mike,Clements,1870,1898,,paper+sheet,high,year(s) supplied from the paper map; superscript 23 | index 23; paper source p-10,,import 2026-09-04,2026-09-04
+P00194,C-36,Mary Summers,MF Summers,1921,2006,,paper+sheet,medium,paper reads 'Mary Frances SUMMERS'; year(s) supplied from the paper map; heavy later ink MARY FRANCES written over the original initials S M F; could read Mary Francis | initials S.M.F. later overwritten MARY FRANCES; likely Sister Mary Frances; birth year could read 1821; paper source p-10,,import 2026-09-04,2026-09-04
+P00195,C-37,Bridget,Summers,1892,1959,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00196,C-38,Francis,Summers,1891,1962,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00197,C-39,Emmett,Summers,1923,2008,,paper+sheet,high,year(s) supplied from the paper map; death written 10.3.2008; small word above reads m sur or Msgr | MSGR written above; full death date 10-3-2008; paper source p-10,,import 2026-09-04,2026-09-04
+P00198,C-40,Rev Peter B.F.,O'Rourke,1900,1975,,paper+sheet,medium,paper reads 'Rev. Peter B. F. O'ROURKE'; year(s) supplied from the paper map; years written 1900 / 1975 as small figures after the name | REV written on line above; paper source p-10,,import 2026-09-04,2026-09-04
+P00199,C-44,,MOHLER,,,,paper,medium,written in the blank part of column 3 with a long curved pointer line running to the lot 66/67 boundary; lot assignment uncertain | written in cell 44 with a leader line running down to the crossed-out THORNTON JOHANNA entry at lot 67; paper source p-10,,import 2026-09-04,2026-09-04
+P00200,C-45,,Campbell,,,,paper+sheet,high,surname only; small lettering | surname only; paper source p-10,,import 2026-09-04,2026-09-04
+P00201,C-46,Mary,Campbell,,,,paper+sheet,high,paper source p-10,,import 2026-09-04,2026-09-04
+P00202,C-47,Holmes,Campbell,1890,1973,,paper+sheet,high,year(s) supplied from the paper map; Holmes used as given name; paper source p-10,,import 2026-09-04,2026-09-04
+P00203,C-48,Mary,Campbell,1890,1974,,paper+sheet,medium,paper reads 'Mae CAMPBELL'; year(s) supplied from the paper map; MAE struck through and MARY written above it | MAE struck through and MARY E written above; could be MARY E CAMPBELL; paper source p-10,,import 2026-09-04,2026-09-04
+P00204,C-49,,CAMPBELL,,,,paper,medium,cell crossed out with a large X and a question mark; boxed C at right | large X drawn through cell and a question mark; boxed C at right; paper source p-10,,import 2026-09-04,2026-09-04
+P00205,C-51,,Barr,,,,paper+sheet,medium,paper reads 'ISAAC BARR'; circled 25 above; paper source p-10,,import 2026-09-04,2026-09-04
+P00206,C-52,Stephanie,Barr,1995,1995,,paper+sheet,high,year(s) supplied from the paper map; BABY 11-14-95 written above; birth 11-14-1995 | BABY 11-14-95 written above; infant; paper source p-10,,import 2026-09-04,2026-09-04
+P00207,C-53,Joe,Barr,,,,paper+sheet,medium,paper reads 'PAULA BARR'; SUE written and struck through under PAULA | a struck-out initial (JE or IE) below the name; paper source p-10,,import 2026-09-04,2026-09-04
+P00208,C-54,,Barr,,,,paper+sheet,medium,paper reads 'JOSEPH E BARR'; paper source p-10,,import 2026-09-04,2026-09-04
+P00209,C-55,,Barr,1953,2010,,paper+sheet,medium,paper reads 'GRETA BARR'; year(s) supplied from the paper map; death written 6-4-2010 | full death date 6-4-2010; paper source p-10,,import 2026-09-04,2026-09-04
+P00210,C-56,Susan,Barr,,,,paper+sheet,high,"written on the line above the lot number; SUMMERS on the main line is struck through and WISSEL written over it, also struck through; arbiter: the only name standing in this cell is Susan Barr, and the struck overwrite reads WISSEL, not WESSEL; paper source p-10",,import 2026-09-04,2026-09-04
+P00211,C-57,Deb,Summers,,,,paper+sheet,high,given name in parentheses; paper source p-10,,import 2026-09-04,2026-09-04
+P00212,C-58,Tom,Summers,,,,paper+sheet,high,given name in parentheses; paper source p-10,,import 2026-09-04,2026-09-04
+P00213,C-59,Rev Wiliam E,Daly,1911,1991,,paper+sheet,medium,paper reads 'Rev. William E DALY'; year(s) supplied from the paper map; DAILEY struck through and DALY written beside it | DAILEY crossed out and DALY written beside it; REV written above; paper source p-10,,import 2026-09-04,2026-09-04
+P00214,C-60,,Summers,,,,paper+sheet,high,surname only; paper source p-10,,import 2026-09-04,2026-09-04
+P00215,C-63,Owen,Thornton,1844,1912,,paper+sheet,high,year(s) supplied from the paper map; superscript 57 struck | index 52 struck out; paper source p-10,,import 2026-09-04,2026-09-04
+P00216,C-64,Georgie,Thornton,,,,paper+sheet,high,superscript 56 | index 56; paper source p-10,,import 2026-09-04,2026-09-04
+P00217,C-65,Roena,Thornton,,,,paper+sheet,high,ROENA A written above as a correction; superscript 55 | ROENA A written above; index 55; paper source p-10,,import 2026-09-04,2026-09-04
+P00218,C-66,Gracie,Thornton,,,,paper+sheet,high,written above the INFANT entry; superscript 54 | written on line above THORNTON INFANT in same cell; index 54; paper source p-10,,import 2026-09-04,2026-09-04
+P00219,C-66,INFANT,THORNTON,,,,paper,high,entry struck through; superscript 53 | infant; paper source p-10,,import 2026-09-04,2026-09-04
+P00220,C-67,"Johan, Alice",Thornton,,,,paper+sheet,medium,paper reads 'ALICE THORNTON'; superscript 50 | index 50; paper source p-10,,import 2026-09-04,2026-09-04
+P00221,C-67,JOHANA,THORNTON,,,,paper,medium,entry struck through; written above the Alice entry; could read Johanna | entry crossed out; MOHLER written in cell 44 with a leader line pointing to it; arbiter: first name is JOHANA with a single N; paper source p-10,,import 2026-09-04,2026-09-04
+P00222,C-68,Frances,Thornton,1887,1926,,paper+sheet,high,year(s) supplied from the paper map; superscript 49 | index 49; paper source p-10,,import 2026-09-04,2026-09-04
+P00223,C-69,"Rosa, Teresa",Thornton,1847,1928,,paper+sheet,medium,paper reads 'ROSA A THORNTON'; year(s) supplied from the paper map; written above the Teresa entry; dates written in the adjacent cell 89; superscript 48 | written on line above THORNTON TERESA in same cell; index 48; arbiter: the dates in cell 89 are the cramped overflow of these two Thornton lines; no separate row for lot 89; paper source p-10,,import 2026-09-04,2026-09-04
+P00224,C-69,TERESA,THORNTON,1883,1930,,paper,high,dates written in the adjacent cell 89; superscript 47 | index 47; arbiter: the dates in cell 89 are the cramped overflow of these two Thornton lines; no separate row for lot 89; paper source p-10,,import 2026-09-04,2026-09-04
+P00225,C-70,Owen,Thornton,1892,1937,,paper+sheet,high,year(s) supplied from the paper map; small b. under the name; superscript 46 | index 46; paper source p-10,,import 2026-09-04,2026-09-04
+P00226,C-71,Thomas H.,Barr,1931,2014,,paper+sheet,high,year(s) supplied from the paper map; death written 5-2-2014 in heavy later ink | full death date 5-2-2014 written over another number; paper source p-10,,import 2026-09-04,2026-09-04
+P00227,C-72,,Barr,1954,2024,,paper+sheet,medium,paper reads 'Cecilia BARR'; year(s) supplied from the paper map; dates written 5-2-1954 - 1-6-2024 | full dates 5-2-1954 to 1-6-2024; paper source p-10,,import 2026-09-04,2026-09-04
+P00228,C-73,,Barr,,,,paper+sheet,medium,paper reads 'Yvonne BARR'; paper source p-10,,import 2026-09-04,2026-09-04
+P00229,C-74,,FITZSIMMONS,,,,paper,medium,"spans lots 74-76; arbiter: the hand-drawn bracket runs from the top of lot 74 to the bottom of lot 76, with the name and a question mark written at lot 75, so lots 74 and 76 belong to the same entry; paper source p-10",,import 2026-09-04,2026-09-04
+P00230,C-75,,Fitzsimmons,,,,paper+sheet,high,question mark above the name; hand-drawn bracket spans lots 74-76 | spans lots 74-76 (bracket); question mark beside it; paper source p-10,,import 2026-09-04,2026-09-04
+P00231,C-76,,FITZSIMMONS,,,,paper,medium,"spans lots 74-76; arbiter: the hand-drawn bracket runs from the top of lot 74 to the bottom of lot 76, with the name and a question mark written at lot 75, so lots 74 and 76 belong to the same entry; paper source p-10",,import 2026-09-04,2026-09-04
+P00232,C-77,,Summers,,,,paper+sheet,high,surname only; paper source p-10,,import 2026-09-04,2026-09-04
+P00233,C-78,,Summers,,,,paper+sheet,high,surname only; paper source p-10,,import 2026-09-04,2026-09-04
+P00234,C-79,,Summers,,,,paper+sheet,high,surname only | surname only; 1991 written at the left edge of the cell; paper source p-10,,import 2026-09-04,2026-09-04
+P00235,C-80,,Summers,,,,paper+sheet,high,surname only; paper source p-10,,import 2026-09-04,2026-09-04
+P00236,C-83,Vincent,Thornton,1879,1948,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00237,C-84,Ellen,Rigney,,1877,,paper+sheet,high,year(s) supplied from the paper map; birth year not written; paper source p-10,,import 2026-09-04,2026-09-04
+P00238,C-86,Harriet,Rigney,1841,1923,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00239,C-87,Frank,Rigney,1877,1947,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00240,C-91,William,Prior,1800,1896,,paper+sheet,high,year(s) supplied from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00241,C-92,ELLEN,PRIOR,,1884,,paper+sheet,high,written above the Lewis entry in same cell | written on line above PRIOR Lewis in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00242,C-92,Lewis,PRIOR,,1873,,paper+sheet,high,sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-10,,import 2026-09-04,2026-09-04
+P00243,C-94,Christoper,Fitzsimmons,,,,paper+sheet,medium,paper reads 'Christopher FITZSIMMONS'; given name written above the surname | given name written on line above; paper source p-10,,import 2026-09-04,2026-09-04
+P00244,C-95,Caroline,Fitzsimmons,,,,paper+sheet,high,given name written above the surname | given name written on line above; paper source p-10,,import 2026-09-04,2026-09-04
+P00245,C-96,"C.J., Anna",Fitzsimmons,,,,paper+sheet,medium,paper reads 'ANNA FITZSIMMONS'; entry underlined or struck through | boxed F at right; paper source p-10,,import 2026-09-04,2026-09-04
+P00246,C-96,C. J.,FITZSIMMONS,1862,1935,,paper,high,years 1862 / 1935 written to the right; boxed F in the margin | written on line above FITZSIMMONS ANNA in same cell; paper source p-10,,import 2026-09-04,2026-09-04
+P00247,C-101,Edward J,Hamill,,,,paper+sheet,high,Rev written above the name | Rev written on line above; paper source p-11,,import 2026-09-04,2026-09-04
+P00248,C-102,Mary,Pousland,1899,1955,,paper+sheet,high,year(s) supplied from the paper map; could read Pousland or Ponsland; paper source p-11,,import 2026-09-04,2026-09-04
+P00249,C-103,Virginia,Iasicson,1909,1989,,paper+sheet,high,year(s) supplied from the paper map; as written IASICSON; could be Isaacson or Jasicson | could be Isaacson or Jasicson; index 23; paper source p-11,,import 2026-09-04,2026-09-04
+P00250,C-116,Docia,Scott,1893,1933,,paper,high,paper source p-11,,import 2026-09-04,2026-09-04
+P00251,C-120,FRANK E,REILLY,1863,1912,,paper,high,paper source p-11,,import 2026-09-04,2026-09-04
+P00252,C-121,Thomas,Hamill,1857,1875,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00253,C-122,"Joseph E, Jospeh",Hamill,1867,1950,,paper+sheet,medium,"paper reads 'Joseph HAMILL'; year(s) supplied from the paper map; arbiter: the birth year is written small over the letters of HAMILL and does not resolve at 300 dpi - best reading 1867, with 1847, 1862 and 1827 all still possible; the death year 1950 is clear; paper source p-11",,import 2026-09-04,2026-09-04
+P00254,C-122,Joseph E,HAMILL,1902,1937,,paper,medium,written on the line above the HAMILL Joseph entry in the same cell; arbiter: the right-edge superscripts read 1902 over 1937; the first year could also be 1907; paper source p-11,,import 2026-09-04,2026-09-04
+P00255,C-123,Ellen,Hamill,1876,1977,,paper+sheet,medium,paper reads 'Ellen T. HAMILL'; year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00256,C-125,Thomas,Prior,,,,paper+sheet,high,paper source p-11,,import 2026-09-04,2026-09-04
+P00257,C-137,Margaret,Roe,1869,1959,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00258,C-138,"Thomas, Katherine",Roe,1866,1952,,paper+sheet,medium,paper reads 'Katherine ROE'; year(s) supplied from the paper map; years written as small figures to the right | dates written to the right of the name; paper source p-11,,import 2026-09-04,2026-09-04
+P00259,C-138,Thomas,Roe,1860,1942,,paper,high,written above the Katherine entry; years as small figures | written on line above ROE Katherine in same cell; paper source p-11,,import 2026-09-04,2026-09-04
+P00260,C-139,Ellen,Bryant,1858,1951,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00261,C-140,Frank,REILLY,,1936,,paper+sheet,high,entry struck through | name struck through; ROE Thomas 1823-1930 written below the grid at this column; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00262,C-140,Charles,ROE,1863,1936,,paper+sheet,high,written above the Reilly entry; years 1863 and 1936 | written on line above REILLY Frank in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00263,C-157,Isabella,Roe,1859,1922,,paper+sheet,high,"year(s) supplied from the paper map; 1883 written to the right of the name; arbiter: the death year is 1922 - both closing digits are flat-based 2s, not a 6; paper source p-11",,import 2026-09-04,2026-09-04
+P00264,C-158,ISABELL,BryANT,1883,1926,,paper+sheet,medium,written above the Roe entry; could read Isabell or Isabella | written on line above ROE Roseanna in same cell; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00265,C-158,Roseanna,ROE,1869,1879,,paper+sheet,high,years written to the right as 1869-1879; sheet crammed two people into the First/Last columns of this lot; split restored from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00266,C-159,Theresa,Roe,1871,1886,,paper+sheet,high,year(s) supplied from the paper map; 1869-1899 also written to the right of this cell; paper source p-11,,import 2026-09-04,2026-09-04
+P00267,C-160,"Roseanna, John",Roe,1835,1908,,paper+sheet,medium,paper reads 'JOHN ROE'; year(s) supplied from the paper map; years written as small figures 1835 / 1908; second figure could be 1906; paper source p-11,,import 2026-09-04,2026-09-04
+P00268,C-160,Rose Anna,Roe,,,,paper,high,written above the John entry in same cell | written on line above ROE JOHN in same cell; paper source p-11,,import 2026-09-04,2026-09-04
+P00269,C-182,Bridget,Clements,1837,1886,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00270,C-183,Michael,Langan,,1877,,paper+sheet,high,year(s) supplied from the paper map; birth year not written; paper source p-11,,import 2026-09-04,2026-09-04
+P00271,C-184,Ellen,Prior,,1869,,paper+sheet,high,year(s) supplied from the paper map; birth year not written; arbiter: the single year reads 1869; paper source p-11,,import 2026-09-04,2026-09-04
+P00272,C-185,Nellie,Prior,,,,paper+sheet,high,paper source p-11,,import 2026-09-04,2026-09-04
+P00273,C-186,Mary,Chamberlain,1840,1893,,paper+sheet,medium,"paper reads 'Mary Chamberlaw'; year(s) supplied from the paper map; as written Chamberlaw; almost certainly Chamberlain, compare lots 30 and 187; arbiter: surname as written is Chamberlaw; kept as written; paper source p-11",,import 2026-09-04,2026-09-04
+P00274,C-187,P.A.,Chamberlain,1834,1882,,paper+sheet,medium,paper reads 'P. A. Chamberlain'; year(s) supplied from the paper map; could read Chamberlain or Chamberlaw; paper source p-11,,import 2026-09-04,2026-09-04
+P00275,C-189,John,Welch,1873,1880,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00276,C-190,"Dorothy, Carolina",Black,,,,paper+sheet,medium,paper reads 'Carolina M Black'; ink blot over the end of the given name; could be Caroline; paper source p-11,,import 2026-09-04,2026-09-04
+P00277,C-190,Dorothy,Black,1792,,,paper,low,"written on the line above the Black Carolina M entry; the second o of Dorothy is overwritten with a heavy A; arbiter: as written the year reads 1792 followed by a dash and nothing after, but it is overwritten and 1892 or 1912 cannot be excluded; paper source p-11",,import 2026-09-04,2026-09-04
+P00278,C-192,Augustine,Meuwsen,,,,paper+sheet,high,given name written above the surname; could read Meuwsen or Menwsen | given name written on line above; paper source p-11,,import 2026-09-04,2026-09-04
+P00279,C-196,Catherine,King,,1894,,paper+sheet,high,year(s) supplied from the paper map; birth year not written; paper source p-11,,import 2026-09-04,2026-09-04
+P00280,C-197,Thomas,King,,1878,,paper+sheet,high,year(s) supplied from the paper map; birth year not written; paper source p-11,,import 2026-09-04,2026-09-04
+P00281,C-198,John,King,1850,1917,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00282,C-199,Michael,King,1843,1925,,paper+sheet,high,year(s) supplied from the paper map; paper source p-11,,import 2026-09-04,2026-09-04
+P00283,C-200,Mary,King,,,,paper+sheet,high,paper source p-11,,import 2026-09-04,2026-09-04
+P00284,C-201,Castle,,,,,paper+sheet,medium,paper reads ' CASTLE'; surname only; paper source p-12,,import 2026-09-04,2026-09-04
+P00285,C-202,Theresa,O'Keeffe,,,,paper+sheet,high,given name written above the surname | given name written on line above; sheet had first and last name swapped; corrected from the paper map; paper source p-12,,import 2026-09-04,2026-09-04
+P00286,C-203,Welsh,Rose,,,,paper+sheet,medium,paper reads 'Rose Welsh'; paper source p-12,,import 2026-09-04,2026-09-04
+P00287,C-204,Coony,P,,,,paper+sheet,medium,paper reads 'P Coony'; could read Coony or Cooney | could be Cooney; only initial P given; paper source p-12,,import 2026-09-04,2026-09-04
+P00288,C-217,Mary,King,,,,paper+sheet,high,paper source p-12,,import 2026-09-04,2026-09-04
+P00289,C-218,Matthew,King,,,,paper+sheet,high,paper source p-12,,import 2026-09-04,2026-09-04
+P00290,C-219,Cornelia,King,,,,paper+sheet,high,paper source p-12,,import 2026-09-04,2026-09-04
+P00291,C-220,,O'Keeffe,,,,paper+sheet,high,surname only; paper source p-12,,import 2026-09-04,2026-09-04
+P00292,D-1,Catherine,Stockman,,,,paper,high,given name written on the line above the surname | given name written on line above surname; paper source p-14,,import 2026-09-04,2026-09-04
+P00293,D-2,JOHN,STOCKMAN,,,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00294,D-3,HENRY,HENKE,,,,paper,high,an illegible word of about four letters is crossed out below HENKE; could be BARR or EHR | a second crossed-out surname (HENK-) written below on same line; paper source p-14,,import 2026-09-04,2026-09-04
+P00295,D-6,Sarah,Fetter,1851,1933,,paper,high,birth could be 1851 or 1857; paper source p-14,,import 2026-09-04,2026-09-04
+P00296,D-7,Ann,Fetter,,,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00297,D-8,William,Fetter,,,,paper,high,"boxed 'B' bracket in the margin marks lots 8-13 as the Barr family block | boxed ""B"" reference mark in right margin beside this lot; paper source p-14",,import 2026-09-04,2026-09-04
+P00298,D-9,Cecelia,BARR,,1875,,paper,medium,"from the main line of the cell, ""BARR, Thomas & Cecelia""; margin year 1875 written outside the east edge read as hers; arbiter: a real entry that pass 2 missed - as written the spelling is Cecelia (C-e-c-e-l-i-A), not Cecilia; paper source p-14",,import 2026-09-04,2026-09-04
+P00299,D-9,Thomas,BARR,1826,1910,,paper,high,"first line of the cell reads 'BARR, Thomas & William' with William struck out; margin years 1867 / 1870 / 1875 written outside the east edge | upper line reads ""BARR, Thomas & William"" with William struck through; boxed ""B"" mark in margin; paper source p-14",,import 2026-09-04,2026-09-04
+P00300,D-9,William,BARR,1867,1870,,paper,medium,"struck out on the first line of the cell; margin years 1867 / 1870 read as his | inserted with a caret in the right margin after ""BARR, Thomas""; adjacent margin years 1867/1870/1875 could belong to this or the struck-out entry; alternate reading Celia; arbiter: struck-out entry on the upper line confirmed; margin years 1867/1870 read as his; paper source p-14",,import 2026-09-04,2026-09-04
+P00301,D-10,MARY,BARR,1828,1911,,paper,high,a second date pair '1826-1910' is written just above; could belong to Thomas Barr in lot 9; paper source p-14,,import 2026-09-04,2026-09-04
+P00302,D-11,Joseph,LYNCH,1895,1918,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00303,D-12,William,BARR,1864,1943,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00304,D-13,Agnes,BARR,1848,1928,,paper,medium,"boxed ""B"" reference mark at the right edge; arbiter: the third digit of the birth year is this writer's open 4 (compare the 4 of 1924 at lot 63), giving 1848; 1828 and 1868 are not fully excluded; paper source p-14",,import 2026-09-04,2026-09-04
+P00305,D-21,Catherine,LYNCH,,,,paper,high,two names in this cell; paper source p-14,,import 2026-09-04,2026-09-04
+P00306,D-21,Margaret,LYNCH,,,,paper,high,two names in this cell; paper source p-14,,import 2026-09-04,2026-09-04
+P00307,D-22,Michael,LYNCH,1834,1906,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00308,D-28,Thelma,TURNER,1903,1988,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00309,D-29,Joseph,BARR,1910,1911,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00310,D-30,Charles T.,CASTLE,1894,1913,,paper,medium,"written on the upper line of the lot-30 cell; arbiter: the right-edge superscripts read 1894 over 1913, the final digit of the first year being the angular 4; paper source p-14",,import 2026-09-04,2026-09-04
+P00311,D-30,Clarence,Castle,1900,1957,,paper,low,"arbiter: the death year straddles the column rule; the final digit is a 7 and the third reads 5, giving 1957, but 1937 cannot be excluded; paper source p-14",,import 2026-09-04,2026-09-04
+P00312,D-31,ROSA,CASTLE,1870,1952,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00313,D-32,Frank I,CASTLE,1868,1953,,paper,high,middle initial written as a bare 'I' | birth could be 1848; paper source p-14,,import 2026-09-04,2026-09-04
+P00314,D-33,WINNIE,CASTLE,1901,1991,,paper,medium,"""ROSEMARY CASTLE 1901-1991"" is written on the line above in a lighter later hand with the same dates - almost certainly the same person, so one row only; arbiter: the death year ends in a 1, which rules out pass 2's 1944; 1941 remains possible; paper source p-14",,import 2026-09-04,2026-09-04
+P00315,D-34,William,CASTLE,1899,1995,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00316,D-35,Leo,CASTLE,,1942,,paper,medium,"the cell reads ""CASTLE, Leo & William Jr"" over two lines; Leo is on the upper line and the upper superscript year 1942 aligns with it; arbiter: both passes read this the same way - the recorded conflict was only a row-pairing artifact; single year, may be a death year; paper source p-14",,import 2026-09-04,2026-09-04
+P00317,D-35,William Jr,CASTLE,,1929,,paper,medium,"the cell reads ""CASTLE, Leo & William Jr"" over two lines; William Jr is on the lower line and the lower superscript year 1929 aligns with it; arbiter: both passes read this the same way - the recorded conflict was only a row-pairing artifact; single year, may be a death year; paper source p-14",,import 2026-09-04,2026-09-04
+P00318,D-36,ELEANOR,CASTLE,1932,2019,,paper,medium,"written across the top line of the lot-36 cell, preceded by ""SR"" (Sister) on a leader line; the full dates 4-1-1932 - 7-22-2019 are written in the lot-16 cell with an arrow pointing WEST back to this name; arbiter: the arrowhead points at lot 36, so the burial is lot 36 and no row is emitted for lot 16; the name is not struck through - the horizontal stroke is the SR leader; paper source p-14",,import 2026-09-04,2026-09-04
+P00319,D-36,Anna,LYNCH,1860,1934,,paper,high,"the struck-out 'CASTLE, ELEANOR' in this cell is recorded against lot 16; paper source p-14",,import 2026-09-04,2026-09-04
+P00320,D-37,Dennis,LYNCH,1859,1936,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00321,D-38,Michael,LYNCH,1897,1964,,paper,medium,birth year written as '189-' and cut off at the column rule | dates stacked and cramped at cell edge; paper source p-14,,import 2026-09-04,2026-09-04
+P00322,D-38,William,LYNCH,1892,1948,,paper,medium,written on the upper line of the cell; year could be 1948 or 1946 | dates stacked and cramped at cell edge; paper source p-14,,import 2026-09-04,2026-09-04
+P00323,D-39,Lottie,LYNCH,1888,1991,,paper,medium,death year could be 1991 or 1971 | death year could be 1971; paper source p-14,,import 2026-09-04,2026-09-04
+P00324,D-40,Charles,LYNCH,1892,1910,,paper,high,arbiter: the death year is 1910; paper source p-14,,import 2026-09-04,2026-09-04
+P00325,D-51,RAY,KELLER,,,,paper,high,"given name written above the surname; heavier, later ink | given name written on line above surname; paper source p-14",,import 2026-09-04,2026-09-04
+P00326,D-52,RAY,KELLER,,,,paper,high,"given name written above the surname; heavier, later ink | given name written on line above surname; paper source p-14",,import 2026-09-04,2026-09-04
+P00327,D-63,Mary,HORGAN,1833,1924,,paper,medium,"arbiter: the final digit is a 4 drawn as a diagonal with a crossbar overlapping the 2; 1926 is not excluded; the surname is HORGAN, the G having a clear bar; paper source p-14",,import 2026-09-04,2026-09-04
+P00328,D-64,ANDREW,HORGAN,,1900,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00329,D-66,Mary,SHERIDAN,,1919,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00330,D-67,William,SHERIDAN,,1905,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00331,D-68,MATTHEW,Taaffe,1917,1930,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00332,D-84,James,RILEY,,,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00333,D-87,John,RYAN,,,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00334,D-88,Michael,Tuncill,,,,paper,medium,surname could be Tuncill or Turncill | surname could be Tuncil or Tunnill; paper source p-14,,import 2026-09-04,2026-09-04
+P00335,D-91,James,Monaghan,,1979,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00336,D-92,ANNA E,MONAGHAN,,1972,,paper,high,"written solid as 'ANNAE'; read as Anna E; arbiter: written solid as ANNAE with the A and E overlapping; read as ANNA E, not ANNIE; paper source p-14",,import 2026-09-04,2026-09-04
+P00337,D-93,MARY,MONAGHAN,,1936,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00338,D-94,Josephine,MONAGHAN,,1913,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00339,D-95,Owen,MONAGHAN,,1930,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00340,D-96,ANNIE,MONAGHAN,,1880,,paper,high,paper source p-14,,import 2026-09-04,2026-09-04
+P00341,D-109,,Sullivan,,,,paper,high,"written 'Sullivan, Mrs.' - no given name | only ""Mrs."" given; paper source p-15",,import 2026-09-04,2026-09-04
+P00342,D-110,Johanna,O'Keeffe,1868,1870,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00343,D-111,Honora,Egan,,,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00344,D-112,Cornelius,EGAN,,,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00345,D-113,James C. Jr.,EGAN,1936,1936,,paper,high,born and died the same year; paper source p-15,,import 2026-09-04,2026-09-04
+P00346,D-117,Nora,Moloney,1881,1932,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00347,D-118,Joseph,MOLONEY,1878,1913,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00348,D-119,Catherine,MOLONEY,1850,1902,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00349,D-120,Michael,MOLONEY,1841,1927,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00350,D-134,Robert,KEENAN,1837,1897,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00351,D-140,J.C.,BARR,,,,paper,high,"'2006' written above and a hand-drawn boxed 'M' beside the name | ""2006"" and a boxed ""M"" written to the right in the same cell; paper source p-15",,import 2026-09-04,2026-09-04
+P00352,D-143,Daniel,Kerr,1870,1956,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00353,D-144,Mary,KERR,1868,1969,,paper,high,death year could be 1969 or 1949; paper source p-15,,import 2026-09-04,2026-09-04
+P00354,D-145,Rose,KERR,,1897,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00355,D-146,Daniel,KERR,,,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00356,D-147,David,KELLETT,,1891,,paper,medium,'1850-1900' written then crossed out and '1891' written after it | an earlier date range 1858-1900 is struck through and replaced by 1891; paper source p-15,,import 2026-09-04,2026-09-04
+P00357,D-148,John,KELLETT,1851,1900,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00358,D-151,John,KEENAN,1804,1884,,paper,high,birth could be 1804 or 1809 | birth could be 1809; paper source p-15,,import 2026-09-04,2026-09-04
+P00359,D-152,Susan,KEENAN,,,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00360,D-153,Agnes,KEENAN,,,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00361,D-154,William,KEENAN,,,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00362,D-156,,CASTLE,,,,paper,high,"surname only, no given name written; an illegible pencil mark like 'IKJ I9' sits just left of the cell | surname only, comma then blank; boxed letters [K] [Q] written just left of this cell (in lot 176); paper source p-15",,import 2026-09-04,2026-09-04
+P00363,D-157,Katherine,CASTLE,1846,1946,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00364,D-158,Charles,CASTLE,1862,1944,,paper,high,paper source p-15,,import 2026-09-04,2026-09-04
+P00365,D-159,ANNE LEE,CASTLE,1896,1982,,paper,medium,two people in this cell; the lower margin date pair is read as hers; paper source p-15,,import 2026-09-04,2026-09-04
+P00366,D-159,FLORENCE,CASTLE,1889,1981,,paper,medium,two people in this cell; FLORENCE is written above ANNE LEE and the upper margin date pair is read as hers | dates written left of the cell; could read 1884-1981 or 1889-1987; paper source p-15,,import 2026-09-04,2026-09-04
+P00367,D-160,EMILY,CASTLE,1892,1902,,paper,medium,death year could be 1902 or 1900 | dates written left of the cell and running into the rule; read as 1842-1960 or 1892-1960; paper source p-15,,import 2026-09-04,2026-09-04
+P00368,E-1,MIKE,SUMMERS,,,,paper,high,first name written above surname | given name written on line above surname; same name also appears in lot 2; paper source p-17,,import 2026-09-04,2026-09-04
+P00369,E-2,MIKE,SUMMERS,1951,2023,,paper,high,"death year written twice and overwritten; probably Mike Summers the younger (lot 22 is ""MIKE 1st"") | dates written above name and repeated after it; paper source p-17",,import 2026-09-04,2026-09-04
+P00370,E-3,,FOX,,,,paper,high,surname only; paper source p-17,,import 2026-09-04,2026-09-04
+P00371,E-4,,FOX,,,,paper,high,surname only; paper source p-17,,import 2026-09-04,2026-09-04
+P00372,E-5,Lena M,Hillebrand,1902,1990,,paper,medium,"death year overwritten and illegible, reads 1989 or 1900; ""AU"" and a circled 4 written after | dates overwritten; could be 1892-1989; letters AU/AV after dates; circled 4 at right; paper source p-17",,import 2026-09-04,2026-09-04
+P00373,E-8,Mary,Lennon,,,,paper,high,circled 3 after name | circled 3 at right; paper source p-17,,import 2026-09-04,2026-09-04
+P00374,E-9,Christian,Frank,,,,paper,high,circled 2 after name | circled 2 at right; paper source p-17,,import 2026-09-04,2026-09-04
+P00375,E-10,Rose,Frank,,,,paper,high,circled 1 after name | circled 1 at right; paper source p-17,,import 2026-09-04,2026-09-04
+P00376,E-11,JAMES T,Shepard,1929,1985,,paper,medium,"birth year overwritten, could be 1924 | birth year overwritten; could be 1924 or 1927; paper source p-17",,import 2026-09-04,2026-09-04
+P00377,E-12,BEULAH BELL,SHEPARD,1896,1979,,paper,medium,"arbiter: upper entry in the cell, heavier ink; birth year overwritten - reads 1896, could be 1898; paper source p-17",,import 2026-09-04,2026-09-04
+P00378,E-12,Everette,Shepard,1843,1926,,paper,medium,"arbiter: surname is Shepard (same hand as lots 11/29), not Shepare; birth year reads 1843 clearly, not 1897; death year overwritten; paper source p-17",,import 2026-09-04,2026-09-04
+P00379,E-13,Dolores,Slattery,1938,1985,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00380,E-14,KENNETH,Slattery,1925,2002,,paper,high,"small ""m"" written after the name | small m after name; paper source p-17",,import 2026-09-04,2026-09-04
+P00381,E-17,MARGARET,RENKERT,,2015,,paper,high,full date written 7-11-2015 | full date 7-11-2015; paper source p-17,,import 2026-09-04,2026-09-04
+P00382,E-18,CHARLES,RENKERT,1920,1992,,paper,high,"""CH"" written again below the surname | false start CH written below surname; paper source p-17",,import 2026-09-04,2026-09-04
+P00383,E-19,DON,EGAN,,2006,,paper,high,"crossed out; ""CREMATED 12-17-06"" | surname EGAN struck through; CREMATED 12-17-06; paper source p-17",,import 2026-09-04,2026-09-04
+P00384,E-19,ANN,WILSON,,,,paper,high,later addition written above the crossed-out EGAN entry | written above the crossed-out EGAN entry in the same cell; paper source p-17,,import 2026-09-04,2026-09-04
+P00385,E-20,,EGAN,,,,paper,high,"crossed out | struck through; arrow with 1134 (uncertain, could be H34); paper source p-17",,import 2026-09-04,2026-09-04
+P00386,E-20,,WILSON,,,,paper,medium,"later addition above crossed-out EGAN; arrow and ""F134"" written after, apparently a cross-reference to Section F lot 134 | written above the crossed-out EGAN; surname only; paper source p-17",,import 2026-09-04,2026-09-04
+P00387,E-21,WANDA,SUMMERS,1924,1995,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00388,E-22,MIKE,SUMMERS,1918,1988,,paper,high,"""1st"" written after the given name | suffix after MIKE unclear; could be P, F or Jr; paper source p-17",,import 2026-09-04,2026-09-04
+P00389,E-23,MARY E,DILLON,1877,1974,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00390,E-24,James,DILLON,1869,1920,,paper,high,"""22"" written after the name (a second, older numbering) | small 22 written after name (cross-reference or age); paper source p-17",,import 2026-09-04,2026-09-04
+P00391,E-25,BABY,DILLION,,1905,,paper,high,"date written 8-14-1905; ""21"" after the name; surname written ""DILLION"" | full date 8-14-1905; small 21 after name; paper source p-17",,import 2026-09-04,2026-09-04
+P00392,E-26,HELEN,DILLON,,,,paper,high,"written above Finnegan, Bridget | written above Finnegan, Bridget in the same cell; paper source p-17",,import 2026-09-04,2026-09-04
+P00393,E-26,Bridget,Finnegan,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00394,E-27,John,FINNEGAN,,,,paper,high,"""20"" written after the name | small 20 written after name; paper source p-17",,import 2026-09-04,2026-09-04
+P00395,E-28,Edward T,FINNEGAN,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00396,E-28,OSIE,FINNEGAN,,,,paper,medium,written above; circled 10 after the name | written above Edward in same cell; circled 16 at right; paper source p-17,,import 2026-09-04,2026-09-04
+P00397,E-29,KENNETH,SHEPARD,1931,2013,,paper,high,death date written 11-14-2013 | death date 11-11-2013 (day overwritten); paper source p-17,,import 2026-09-04,2026-09-04
+P00398,E-30,John,Judge,,,,paper,high,"""18"" written after the name | small 18 written after name; paper source p-17",,import 2026-09-04,2026-09-04
+P00399,E-31,Margaret,Judge,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00400,E-32,,Gramlich,,,,paper,high,"surname only | surname only, trailing comma; paper source p-17",,import 2026-09-04,2026-09-04
+P00401,E-33,,Gramlich,,,,paper,high,"surname only | surname only, trailing comma; paper source p-17",,import 2026-09-04,2026-09-04
+P00402,E-34,George,KLEIN,1881,1968,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00403,E-35,Catherine,Desmond,1859,1921,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00404,E-36,Dennis,Desmond,1859,1937,,paper,high,"""17"" written after the name | small 17 written after name; paper source p-17",,import 2026-09-04,2026-09-04
+P00405,E-37,MARY,KLEIN,1885,1924,,paper,high,"""A3"" written after the name | A3 written after name; paper source p-17",,import 2026-09-04,2026-09-04
+P00406,E-38,JULIE,WILSON,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00407,E-39,MARIANNA,EGAN,1911,1995,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00408,E-40,JAMES C,EGAN,1911,1979,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00409,E-41,DIANE,SUMMERS,,,,paper,high,given name written above surname | given name heavily overwritten; could be DEANNE or DIANN; paper source p-17,,import 2026-09-04,2026-09-04
+P00410,E-42,CATHERINE,SUMMERS,1947,2025,,paper,medium,given name written above and struck through / overwritten | given name overwritten; paper source p-17,,import 2026-09-04,2026-09-04
+P00411,E-43,,FOX,,,,paper,high,surname only; paper source p-17,,import 2026-09-04,2026-09-04
+P00412,E-44,JAMES,DILLON,1917,1983,,paper,high,written given-name-first | given name written before surname; paper source p-17,,import 2026-09-04,2026-09-04
+P00413,E-45,GERARD,KOCH,,,,paper,medium,could also read GERARHD | given name could read GERARD or GERALD; paper source p-17,,import 2026-09-04,2026-09-04
+P00414,E-46,,KOCH,,,,paper,high,surname only | surname only followed by a dash; paper source p-17,,import 2026-09-04,2026-09-04
+P00415,E-47,,KOCH,,,,paper,high,"""2 BABYS"" written above the surname | 2 BABYS written above surname; paper source p-17",,import 2026-09-04,2026-09-04
+P00416,E-48,Elizabeth,Bettels,1859,1926,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00417,E-49,,Judge,,,,paper,high,surname only; paper source p-17,,import 2026-09-04,2026-09-04
+P00418,E-50,Cecelia,Judge,1865,1945,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00419,E-51,Andrew,Judge,1860,1946,,paper,high,"""46"" written again after the death year; paper source p-17",,import 2026-09-04,2026-09-04
+P00420,E-52,Dolores,Judge,1894,1977,,paper,medium,"written above the Joseph entry; years overlap the writing, could be 1899-1977 | written above Joseph in the same cell; paper source p-17",,import 2026-09-04,2026-09-04
+P00421,E-52,Joseph,Judge,1893,1989,,paper,medium,years overlap the writing; paper source p-17,,import 2026-09-04,2026-09-04
+P00422,E-53,Joseph W,Mull,1926,1926,,paper,high,"""44"" written after; infant (same birth and death year) | small 44 after name; infant; paper source p-17",,import 2026-09-04,2026-09-04
+P00423,E-54,Agnes,Judge,1888,1974,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00424,E-55,SERENA,Mull,1899,1980,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00425,E-56,JOHN P,Mull,1898,1987,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00426,E-57,DOROTHY,STUENKEL,1927,2022,,paper,high,full dates 7-8-1927 - 2-5-2022; paper source p-17,,import 2026-09-04,2026-09-04
+P00427,E-58,PHYLISS,WEGENG,,,,paper,medium,"arbiter: written ""WEGENG PHYLISS"" on the upper line, surname-first as elsewhere on this sheet; ""STUENKEL"" alone on the line below is the family/lot surname; paper source p-17",,import 2026-09-04,2026-09-04
+P00428,E-59,TERRY,WEGENG,,,,paper,medium,"arbiter: written ""WEGENG TERRY""; ""STUENKEL"" alone on the line below is the family/lot surname; paper source p-17",,import 2026-09-04,2026-09-04
+P00429,E-60,CHRIS,WEGENG,,,,paper,medium,"arbiter: written ""WEGENG CHRIS""; family/lot surname on the line below spelled STUENKLE here; paper source p-17",,import 2026-09-04,2026-09-04
+P00430,E-61,,Summers,,,,paper,high,surname only; paper source p-17,,import 2026-09-04,2026-09-04
+P00431,E-62,,Summers,,,,paper,high,surname only; paper source p-17,,import 2026-09-04,2026-09-04
+P00432,E-63,MARGARET,Holmes,,1999,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00433,E-64,PATRICK,Holmes,,,,paper,high,given name unclear; reads PATRICY; paper source p-17,,import 2026-09-04,2026-09-04
+P00434,E-65,ODELIA,SLATTERY,1900,1982,,paper,high,"surname written ""SIATTERY""; paper source p-17",,import 2026-09-04,2026-09-04
+P00435,E-66,EDWARD J,SLATTERY,1894,1983,,paper,high,"surname written ""SIATTERY""; paper source p-17",,import 2026-09-04,2026-09-04
+P00436,E-67,MARIE,CARTER,1913,2009,,paper,high,death date written 6-20-2009 | death date 6-20-2009; paper source p-17,,import 2026-09-04,2026-09-04
+P00437,E-68,CARLETON,CARTER,1922,1973,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00438,E-69,Sophia,Boland,1871,1940,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00439,E-70,Michael,Boland,1867,1944,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00440,E-71,KATHERYN,Mitchell,1889,1961,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00441,E-72,Albert W,MITCHELL,1887,1969,,paper,high,W written after name; paper source p-17,,import 2026-09-04,2026-09-04
+P00442,E-73,KATH,Mitchell,,2004,,paper,medium,"later addition squeezed in above and to the right; given name abbreviated ""KATH"" | second entry squeezed above the first; likely Katherine; paper source p-17",,import 2026-09-04,2026-09-04
+P00443,E-73,Rupert J,Mitchell,1915,1946,,paper,high,small 93 at right edge; paper source p-17,,import 2026-09-04,2026-09-04
+P00444,E-74,CHARLES H,MITCHELL,1944,1975,,paper,high,"arbiter: real entry, legible; pass 2 missed it; paper source p-17",,import 2026-09-04,2026-09-04
+P00445,E-81,MARY,ROE,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00446,E-82,Mathew,Kellett,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00447,E-83,Mamie,Kellett,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00448,E-84,Donald,Kellett,1860,1908,,paper,high,written on the line above Donald in the same cell; paper source p-17,,import 2026-09-04,2026-09-04
+P00449,E-84,William,Kellett,,1908,,paper,high,written above right of the Donald entry; paper source p-17,,import 2026-09-04,2026-09-04
+P00450,E-87,Nellie,FLYNN,,1925,,paper,high,"""DIED 1925"" written above; the lot number is overwritten and looks like 88 but by position it is 87 | DIED 1925 written above name; paper source p-17",,import 2026-09-04,2026-09-04
+P00451,E-88,Bridget,FLYNN,1827,1904,,paper,medium,"arbiter: written above thomas in the same cell; birth year overwritten, reads 1827, could be 1821; paper source p-17",,import 2026-09-04,2026-09-04
+P00452,E-88,thomas,FLYNN,1814,1880,,paper,medium,"death year overwritten, could be 1820 | death year overwritten; could be 1886; paper source p-17",,import 2026-09-04,2026-09-04
+P00453,E-89,Thomas R.,FLYNN,1859,1907,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00454,E-90,KAREN,CARTER,,,,paper,high,"""OK"" written before the given name | OK written before given name; paper source p-17",,import 2026-09-04,2026-09-04
+P00455,E-91,Joseph,MOORE,1874,1961,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00456,E-94,MARY JANE,FRAIN,1915,1997,,paper,high,death date written 7-30-97 | death date 7-30-97; paper source p-17,,import 2026-09-04,2026-09-04
+P00457,E-95,Michael V,FRAIN,1919,1978,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00458,E-96,,FRAIN,,,,paper,high,"surname only | surname only, trailing comma; paper source p-17",,import 2026-09-04,2026-09-04
+P00459,E-97,Frances,Walsh,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00460,E-98,Irene,Walsh,,,,paper,high,paper source p-17,,import 2026-09-04,2026-09-04
+P00461,E-107,Charles,FLYNN,1851,1902,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00462,E-108,Sara,FLYNN,,1921,,paper,medium,"earlier dates ""7-20-1865 - 2-20-"" struck through and replaced with ""DIED 1921"" | original date line 7-20-1866 - 2-20-... struck through and replaced with DIED 1921; paper source p-18",,import 2026-09-04,2026-09-04
+P00463,E-109,Nora,FLYNN,1865,1951,,paper,high,full dates 7-20-1865 - 2-20-1951; paper source p-18,,import 2026-09-04,2026-09-04
+P00464,E-112,John,Moore,1824,1905,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00465,E-113,Anna,Moore,1833,1919,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00466,E-114,,FRAIN,,,,paper,high,surname only; paper source p-18,,import 2026-09-04,2026-09-04
+P00467,E-115,Sadie,PRIOR,1857,1974,,paper,medium,"arbiter: digit is a 5 not a 9, so 1857 not 1897; span as written is implausible, could be 1867 or 1887; paper source p-18",,import 2026-09-04,2026-09-04
+P00468,E-116,Michael,FRAIN,1912,1913,,paper,high,infant | small 3 after dates; infant; paper source p-18,,import 2026-09-04,2026-09-04
+P00469,E-117,VINCENT,FRAIN,1861,1919,,paper,medium,"arbiter: ""M."" written after the dates; birth digit is a 6, reads 1861, could be 1851; paper source p-18",,import 2026-09-04,2026-09-04
+P00470,E-118,Elizabeth,Brent,1888,1949,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00471,E-119,JAMES,Welch,1857,1913,,paper,medium,"arbiter: dates written across the cell rule; fourth digit is a 7, reads 1857 not 1852; paper source p-18",,import 2026-09-04,2026-09-04
+P00472,E-119,Virginia,Welch,1855,1931,,paper,high,written above the James entry | written above JAMES in the same cell; paper source p-18,,import 2026-09-04,2026-09-04
+P00473,E-120,JOSEPH,Welch,1883,1934,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00474,E-141,Catherine,KING,,,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00475,E-144,FRANCES W,MATHEWS,1900,1987,,paper,medium,"arbiter: real entry, entire line struck through; dates read 1900-1987; paper source p-18",,import 2026-09-04,2026-09-04
+P00476,E-152,John,Stockmann,,,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00477,E-153,Edward,Stockmann,,,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00478,E-154,Angelica,Stockmann,,,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00479,E-155,Madeline,Mitchell,,,,paper,high,paper source p-18,,import 2026-09-04,2026-09-04
+P00480,E-155,Ed. H.,STOCKMANN,,,,paper,high,written above the Mitchell entry | written above Mitchell in the same cell; paper source p-18,,import 2026-09-04,2026-09-04
+P00481,F-5,MARGARET,McGINNIS,1878,1945,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00482,F-6,Michael,McGINNIS,1846,1919,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00483,F-7,Catherine,McGinnis,1858,1963,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00484,F-8,Hugh,McGinnis,1889,1952,,paper,medium,given name written over an earlier word; could be Hugh or Hogh | given name written over an earlier word; could read Hegh; paper source p-20,,import 2026-09-04,2026-09-04
+P00485,F-9,Nellie,Kerr,1880,1942,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00486,F-10,James,Kerr,1861,1941,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00487,F-11,TERRY,EDWARDS,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00488,F-12,T,EDWARDS,,,,paper,high,initial only | given name written as initial T; paper source p-20,,import 2026-09-04,2026-09-04
+P00489,F-13,T,EDWARDS,,,,paper,high,initial only | given name written as initial T; paper source p-20,,import 2026-09-04,2026-09-04
+P00490,F-14,T,EDWARDS,,,,paper,high,initial only; an upward arrow is drawn after the name | arrow drawn upward from lot 15 into this cell; paper source p-20,,import 2026-09-04,2026-09-04
+P00491,F-15,D.W.,Daugherty,1873,1934,,paper,high,arrow drawn from this cell up into lot 14; paper source p-20,,import 2026-09-04,2026-09-04
+P00492,F-16,T,EDWARDS,,,,paper,high,initial only | given name written as initial T; paper source p-20,,import 2026-09-04,2026-09-04
+P00493,F-17,T,EDWARDS,,,,paper,high,initial only | given name written as initial T; paper source p-20,,import 2026-09-04,2026-09-04
+P00494,F-18,T,EDWARDS,,,,paper,high,initial only | given name written as initial T; paper source p-20,,import 2026-09-04,2026-09-04
+P00495,F-19,T,EDWARDS,,,,paper,high,initial only | given name written as initial T; paper source p-20,,import 2026-09-04,2026-09-04
+P00496,F-20,M,VOGEL,,,,paper,high,"written in the south-end cell of the column; ""M"" may be an initial or a marker note | given name written as initial M; paper source p-20",,import 2026-09-04,2026-09-04
+P00497,F-27,Frank,Tuck,1888,1934,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00498,F-28,MAMIE C,Tuck,1892,1976,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00499,F-29,baby,Tuck,,1919,,paper,high,"infant burial; ""baby"" written in place of given name | written ""Tuck, baby""; infant; single year written; paper source p-20",,import 2026-09-04,2026-09-04
+P00500,F-30,,BLEAZARD,,,,paper,high,"surname only; written here as BIEAZARD, read as BLEAZARD from lots 39/34 | surname only; paper source p-20",,import 2026-09-04,2026-09-04
+P00501,F-31,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00502,F-32,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00503,F-33,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00504,F-34,MARY,BLEAZARD,1933,2009,,paper,high,full dates written 3-30-33 and 10-21-2009 | dates written 3-30-33 and 10-21-2009; paper source p-20,,import 2026-09-04,2026-09-04
+P00505,F-35,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00506,F-36,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00507,F-37,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00508,F-38,,BLEAZARD,,,,paper,high,"ditto mark for BLEAZARD | written as B "" (ditto for BLEAZARD); paper source p-20",,import 2026-09-04,2026-09-04
+P00509,F-39,,BLEAZARD,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00510,F-40,,BLEAZARD,,,,paper,high,"south-end cell; a second line ""VOGEL M"" below is struck through | surname only; written above a crossed-out entry; paper source p-20",,import 2026-09-04,2026-09-04
+P00511,F-40,M,VOGEL,,,,paper,high,"arbiter: real second line in the cell, struck through and superseded by BLEAZARD above; paper source p-20",,import 2026-09-04,2026-09-04
+P00512,F-45,PAT,KENNEDY,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00513,F-46,,KENNEDY,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00514,F-47,,KENNEDY,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00515,F-49,,CARROLL,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00516,F-50,,Carroll,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00517,F-51,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00518,F-52,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00519,F-53,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00520,F-54,ANNA KATHYRN,CARROLL,1932,2019,,paper,high,"arbiter: ANNA is inserted above the line between CARROLL and KATHYRN, so the given name is ANNA KATHYRN; dates written 1-28-32 - 1-12-2019; KATHYRN as written (likely Kathryn); paper source p-20",,import 2026-09-04,2026-09-04
+P00521,F-55,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00522,F-56,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00523,F-57,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00524,F-58,,CARROLL,,,,paper,high,"ditto mark for Carroll | written as C "" (ditto for CARROLL); paper source p-20",,import 2026-09-04,2026-09-04
+P00525,F-59,,CARROLL,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00526,F-60,M,VOGEL,,,,paper,high,"south-end cell; ""M"" may be an initial or a marker note | given name written as initial M; paper source p-20",,import 2026-09-04,2026-09-04
+P00527,F-61,SUSAN,BARR,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00528,F-62,TED,BARR,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00529,F-63,DOROTHY F,BARR,1929,2013,,paper,high,birth written 3-31-1929 over an erased earlier date; death 11-11-2013 | birth line partly crossed out and rewritten (3-3?-1929); paper source p-20,,import 2026-09-04,2026-09-04
+P00530,F-64,DAVID,BARR,1924,2017,,paper,high,dates written 2-16-24 and 11-19-2017 | dates 2-18-24 and 11-19-2017; paper source p-20,,import 2026-09-04,2026-09-04
+P00531,F-66,ANN,COLLIER,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00532,F-67,PAUL J,COLLIER,1925,2023,,paper,high,dates written 1-16-1925 - 11-23-2023 | dates 1-16-1925 to 11-23-2023; paper source p-20,,import 2026-09-04,2026-09-04
+P00533,F-68,Mary,Collier,1891,1975,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00534,F-69,James,Collier,1892,1961,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00535,F-70,CHRIS,Vogel,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00536,F-71,TERESA,Vogel,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00537,F-72,Stephanie,Vogel,,1987,,paper,high,"single year written as ""-1987"" | single year written; paper source p-20",,import 2026-09-04,2026-09-04
+P00538,F-73,FRAN,VOGEL,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00539,F-74,MICHAEL J,VOGEL,1934,2023,,paper,high,dates written 10-30-1934 - 12-11-2023 | dates 10-30-1934 to 12-11-2023; paper source p-20,,import 2026-09-04,2026-09-04
+P00540,F-75,BETH,VOGEL,,,,paper,high,"surname written as ditto: V "" | surname written as V "" (ditto for Vogel); paper source p-20",,import 2026-09-04,2026-09-04
+P00541,F-76,DAVID,VOGEL,,,,paper,high,"surname written as ditto: V "" | surname written as V "" (ditto for Vogel); given name DAVID struck through; paper source p-20",,import 2026-09-04,2026-09-04
+P00542,F-77,,VOGEL,,,,paper,high,"ditto mark for Vogel | written as V "" (ditto for Vogel); paper source p-20",,import 2026-09-04,2026-09-04
+P00543,F-78,,VOGEL,,,,paper,high,"ditto mark for Vogel | written as V "" (ditto for Vogel); paper source p-20",,import 2026-09-04,2026-09-04
+P00544,F-79,,Vogel,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00545,F-80,M,VOGEL,,,,paper,high,"south-end cell; ""M"" may be an initial or a marker note | given name written as initial M; paper source p-20",,import 2026-09-04,2026-09-04
+P00546,F-86,J.,SANGER,,1891,,paper,high,"single year written as ""-1891""; surname could read SANBER | single year written; surname could read SANBER; paper source p-20",,import 2026-09-04,2026-09-04
+P00547,F-87,MARGARET,SANGER,,,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00548,F-88,SOPHIE,SCHROEDER,1905,1942,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00549,F-89,O.G.,Schroeder,1901,1986,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00550,F-90,,Vogel,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00551,F-91,MARGARET E.,Vogel,1939,1941,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00552,F-92,MARGARET M,Vogel,1910,1981,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00553,F-93,GEORGE F,VOGEL,1897,1978,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00554,F-94,,VOGEL,,,,paper,high,surname only; paper source p-20,,import 2026-09-04,2026-09-04
+P00555,F-95,Lutie,Meschede,1909,1934,,paper,high,given name could read Lutie or Little; paper source p-20,,import 2026-09-04,2026-09-04
+P00556,F-96,Richard,Meschede,1903,1936,,paper,high,paper source p-20,,import 2026-09-04,2026-09-04
+P00557,F-97,Frederich,Meschede,1904,1929,,paper,high,written Frederich/Frederick; paper source p-20,,import 2026-09-04,2026-09-04
+P00558,F-98,JOSEPH,Meschede,1868,1931,,paper,high,written on the upper line of the cell; paper source p-20,,import 2026-09-04,2026-09-04
+P00559,F-98,NAN,Meschede,1866,1956,,paper,medium,"arbiter: second person in the cell (main line); JOSEPH is on the upper line; dates 1866-1956 are written in the lot-99 cell just below, which holds no name; paper source p-20",,import 2026-09-04,2026-09-04
+P00560,F-100,Federicka,Meschede,1860,1923,,paper,high,birth year could read 1866; paper source p-20,,import 2026-09-04,2026-09-04
+P00561,F-101,William J,Maloney,1876,1937,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00562,F-103,Mary,Cromley,1865,1950,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00563,F-104,William,Cromley,1865,1961,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00564,F-106,ANNIE,Mitchell,,1882,,paper,high,single year written; paper source p-21,,import 2026-09-04,2026-09-04
+P00565,F-107,FRANKE,Mitchell,1871,1966,,paper,high,"written FRANKE with an accent over the final E; could be ""FRANK E.""; paper source p-21",,import 2026-09-04,2026-09-04
+P00566,F-108,MARY,Mitchell,1828,1903,,paper,high,lower line of the cell | birth year could read 1825; paper source p-21,,import 2026-09-04,2026-09-04
+P00567,F-108,PATRICK,MITCHELL,1812,1903,,paper,high,upper line of the cell | upper of two entries in the cell; birth year could read 1872; paper source p-21,,import 2026-09-04,2026-09-04
+P00568,F-109,GEORGE,Mitchell,1904,1912,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00569,F-110,Delphine,Mathews,,1907,,paper,high,single year written; paper source p-21,,import 2026-09-04,2026-09-04
+P00570,F-111,Catherine,Mathews,1869,1956,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00571,F-112,Michael,Mathews,1863,1937,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00572,F-113,JAMES,MATHEWS,1902,1968,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00573,F-114,,MATHEWS,,,,paper,high,"surname only, written ""MATHEWS,"" with a trailing comma and no given name | surname only, followed by a comma; paper source p-21",,import 2026-09-04,2026-09-04
+P00574,F-115,RICHARD,MESCHEDE,1862,1932,,paper,high,death year could read 1937; paper source p-21,,import 2026-09-04,2026-09-04
+P00575,F-116,Fredericka,Meschede,1830,1913,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00576,F-117,RICHARD,Meschede,1821,1902,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00577,F-118,FredericKA,Meschede,1860,1923,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00578,F-119,Clarence,STOCKMANN,1898,1937,,paper,high,dates written to the left of the cell | dates written to the left of the cell border; paper source p-21,,import 2026-09-04,2026-09-04
+P00579,F-119,LOUISA,STOCKMANN,1903,1933,,paper,high,dates written to the left of the cell; death could be 1935 | second entry in the same cell; dates written to the left of the cell border; paper source p-21,,import 2026-09-04,2026-09-04
+P00580,F-120,William,Meschede,1873,1951,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00581,F-121,James,Bell,1840,1931,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00582,F-122,ANNIE,Bell,1853,1909,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00583,F-123,MINNIE,Bell,1888,1907,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00584,F-124,POLENA,Bell,1888,1897,,paper,high,given name could be POLENA or ROLENA; paper source p-21,,import 2026-09-04,2026-09-04
+P00585,F-141,AGNES,CALDWELL,,1900,,paper,high,"upper line of the cell; a two-letter suffix follows the given name, read as ""McE"" (possibly an abbreviated maiden name) | upper of two entries in the cell; single year written; paper source p-21",,import 2026-09-04,2026-09-04
+P00586,F-141,MARY ANN,O’KEEFFE,1829,1906,,paper,low,"arbiter: lower line of the cell; the last digit of the death year is cut off by the column rule - 1906 or 1908, cannot be settled; paper source p-21",,import 2026-09-04,2026-09-04
+P00587,F-142,William,O’KEEFFE,,1894,,paper,high,"single year written as ""-1894"" | single year written; paper source p-21",,import 2026-09-04,2026-09-04
+P00588,F-143,C. J.,O’KEEFFE,1873,1948,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00589,F-144,FRANCIS,MATHEWS,1900,1987,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00590,F-153,INFANT,STOCKMANN,,1931,,paper,high,"single year written; ""INFANT"" in place of a given name | written ""STOCKMANN, INFANT""; single year written; paper source p-21",,import 2026-09-04,2026-09-04
+P00591,F-154,JOSEPH W,STOCKMAN,1895,1983,,paper,high,"arbiter: lower of two entries in the cell (passes had the two swapped); surname runs off the column rule, may be STOCKMANN; paper source p-21",,import 2026-09-04,2026-09-04
+P00592,F-154,LONA BELL,STOCKMAN,1900,1981,,paper,high,"arbiter: upper of two entries in the cell (passes had the two swapped); surname runs off the column rule, may be STOCKMANN; paper source p-21",,import 2026-09-04,2026-09-04
+P00593,F-155,VINCENT,STOCKMANN,,1881,,paper,high,"arbiter: single year, both middle digits are 8s - 1881 not 1861; unclear whether birth or death, recorded as death; paper source p-21",,import 2026-09-04,2026-09-04
+P00594,F-156,William,Medlin,1920,1921,,paper,high,upper line of the cell | upper of two entries in the cell; paper source p-21,,import 2026-09-04,2026-09-04
+P00595,F-156,William,STOCKMANN,1887,1925,,paper,high,lower line of the cell; paper source p-21,,import 2026-09-04,2026-09-04
+P00596,F-157,ANNIE,STOCKMANN,1853,1919,,paper,high,paper source p-21,,import 2026-09-04,2026-09-04
+P00597,F-158,ANNA,STOCKMAN,1891,1963,,paper,high,lower line of the cell; spelled STOCKMAN here | surname written STOCKMAN; paper source p-21,,import 2026-09-04,2026-09-04
+P00598,F-158,FRANK,STOCKMAN,1855,1930,,paper,high,upper line of the cell; spelled STOCKMAN here | upper of two entries; surname written STOCKMAN; paper source p-21,,import 2026-09-04,2026-09-04
+P00599,F-159,FRANCES,STOCKMANN,1894,1967,,paper,medium,"arbiter: third digit of the death year is a single-loop 6, so 1967 not 1987; paper source p-21",,import 2026-09-04,2026-09-04
+P00600,G-1,HELEN,BOEDEKER,,,,paper,medium,"arbiter: 'EGAN' is struck through and 'BOEDEKER' written below, matching the same change in lot 2; alternate reading EGAN, HELEN; paper source p-23",,import 2026-09-04,2026-09-04
+P00601,G-2,JAMES,BOEDEKER,,,,paper,medium,"written over an earlier 'EGAN'; a separate 'BOEDEKER' also appears on the line above; alternate reading EGAN, JAMES | leading 'E' (EGAN) struck through; paper source p-23",,import 2026-09-04,2026-09-04
+P00602,G-3,KARLA,EGAN,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00603,G-4,BEN JONES,EGAN,,,,paper,medium,given name written as 'BEN JONES'; could be Ben Jones Egan or a Jones/Egan pairing | given name reads 'BEN JONES'; paper source p-23,,import 2026-09-04,2026-09-04
+P00604,G-5,STACY,WILSON,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00605,G-6,MIKE,WILSON,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00606,G-7,SUSAN,ESSMAN,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00607,G-8,THOMAS,ESSMAN,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00608,G-10,BOB,EDWARDS,,,,paper,high,'EDWARDS BOB' is written in both lot 10 and lot 11; paper source p-23,,import 2026-09-04,2026-09-04
+P00609,G-11,BOB,EDWARDS,,,,paper,high,'EDWARDS BOB' is written in both lot 10 and lot 11 | same name also in lot 10; paper source p-23,,import 2026-09-04,2026-09-04
+P00610,G-12,MICHAELA,WILSON,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00611,G-13,GREGORY,WILSON,,,,paper,high,lot number circled; paper source p-23,,import 2026-09-04,2026-09-04
+P00612,G-21,LAURIE,ROGERS,1961,2021,,paper,high,full dates 5-10-1961 - 4-16-2021; dates written below the name in the same cell | full dates 5-10-1961 - 4-16-2021; paper source p-23,,import 2026-09-04,2026-09-04
+P00613,G-22,DONNA,EGAN,,,,paper,high,no dates written; paper source p-23,,import 2026-09-04,2026-09-04
+P00614,G-23,LEWIS S,EGAN,1934,2012,,paper,high,full dates 10-22-1934 - 10-4-2012; paper source p-23,,import 2026-09-04,2026-09-04
+P00615,G-24,James L.,EGAN,1954,1967,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00616,G-25,THELMA,Chipley,1915,1988,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00617,G-26,Prentice,Chipley,1955,1989,,paper,medium,a circled '16' is written in this cell; birth year could be 1956 | circled '16' in cell; death year could be 1944; paper source p-23,,import 2026-09-04,2026-09-04
+P00618,G-27,JOYCE,Chipley,1934,1978,,paper,high,second name written in the lot 27 cell | second name in lot 27; years may instead belong to Joyce; paper source p-23,,import 2026-09-04,2026-09-04
+P00619,G-27,WILLIAM L,Chipley,,,,paper,high,arbiter: two names in lot 27; given name reads 'WILLIAM' followed by a separate 'L'. Dates 1934-1978 sit between the two names and may belong to WILLIAM L rather than JOYCE; paper source p-23,,import 2026-09-04,2026-09-04
+P00620,G-28,Michael,Edwards,1932,2003,,paper,medium,arbiter: real entry missed by pass 1; dates sit above the name inside cell 28; '1968' also written and overwritten by '2003'; paper source p-23,,import 2026-09-04,2026-09-04
+P00621,G-29,JEAN,EDWARDS,1944,2024,,paper,high,arbiter: real entry missed by pass 1; full dates 3-17-1944 - 5-15-2024; paper source p-23,,import 2026-09-04,2026-09-04
+P00622,G-30,,EDWARDS,,,,paper,high,arbiter: real entry missed by pass 1; surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00623,G-31,BOB,EDWARDS,,,,paper,high,arbiter: real entry missed by pass 1; 'EDWARDS BOB' also appears in lots 10 and 11; paper source p-23,,import 2026-09-04,2026-09-04
+P00624,G-32,Lou E,Rhoads,1914,2009,,paper,high,"arbiter: given name reads 'Lou E' (final letter is a round u, not N); dates 1914-2009; paper source p-23",,import 2026-09-04,2026-09-04
+P00625,G-33,FLOYD,Rhoads,1910,2000,,paper,high,"lot number is circled; a small boxed 'US Army' flag marker is drawn in the cell (veteran) | lot number circled; small boxed annotation at right edge, illegible; paper source p-23",,import 2026-09-04,2026-09-04
+P00626,G-34,JEAN,,,,,paper,medium,arbiter: 'JEAN' is written and struck through; a bracket links this cell to DARLING in lot 35; paper source p-23,,import 2026-09-04,2026-09-04
+P00627,G-35,CHRIS,DARLING,,,,paper,medium,"arbiter: entire entry struck through; given name reads CHRIS (C-H-R-I-S), not CHESS; bracket links lots 34-35; paper source p-23",,import 2026-09-04,2026-09-04
+P00628,G-36,MARGARET,DARLING,1921,2018,,paper,high,full dates 5-19-1921 - 6-29-2018; paper source p-23,,import 2026-09-04,2026-09-04
+P00629,G-37,CHARLES,DARLING,1920,2005,,paper,high,full dates 11-3-1920 - 2005; paper source p-23,,import 2026-09-04,2026-09-04
+P00630,G-38,KAREN,DARLING,,,,paper,medium,"arbiter: only the given name is written; a bracket joins lots 38-39, so the surname is taken from DARLING in lot 39; paper source p-23",,import 2026-09-04,2026-09-04
+P00631,G-39,RICKEY,DARLING,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00632,G-41,VIRGINIA,Gramlich,1930,2008,,paper,high,full dates 1-10-1930 - 2-4-2008 | given name written 'VIRGINDA'; full dates 1-10-1930 - 2-4-2008; paper source p-23,,import 2026-09-04,2026-09-04
+P00633,G-42,Harold,Gramlich,1921,1975,,paper,high,full dates 10-12-1921 - 6-20-1975; paper source p-23,,import 2026-09-04,2026-09-04
+P00634,G-43,ANNE,Gramlich,1894,1975,,paper,high,years could read 1894-1955; paper source p-23,,import 2026-09-04,2026-09-04
+P00635,G-44,Peter A.,Gramlich,1873,1975,,paper,medium,as written the span is 102 years; death year could be 1955 | birth year could read 1878; paper source p-23,,import 2026-09-04,2026-09-04
+P00636,G-45,JOHN F,Gramlich,1920,2005,,paper,high,full dates 6-18-1920 - 12-2?-2005; death day unclear | full dates 6-18-1920 - 12-2?-2005; paper source p-23,,import 2026-09-04,2026-09-04
+P00637,G-46,Margaret,CARR,1923,1990,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00638,G-47,ROBERT E,CARR,1924,1996,,paper,high,full dates 2-24-1924 - 1-24-1996; paper source p-23,,import 2026-09-04,2026-09-04
+P00639,G-48,MARGARET DEANE,ZUPANCI,1941,2019,,paper,medium,"arbiter: middle name reads DEANE (same E glyph as in MARGARET), not DIANE; birth year is 1941 (matches the 4 in '12-4'); surname written ZUPANCI up to the column rule, very likely ZUPANCIC; full dates 12-4-1941 - 5-4-2019; paper source p-23",,import 2026-09-04,2026-09-04
+P00640,G-49,ROSEMARY,Klausing,1926,2010,,paper,high,full dates 7-12-1926 - 3-18-2010; paper source p-23,,import 2026-09-04,2026-09-04
+P00641,G-50,MARION H,Klausing,1926,2013,,paper,high,full dates 7-31-1926 - 5-20-2013; paper source p-23,,import 2026-09-04,2026-09-04
+P00642,G-51,,MELIES,,,,paper,medium,"surname only; spelled MELIES here, spelled 'Melies' elsewhere in this section, could be MELLES | surname only; could read MEIIES; paper source p-23",,import 2026-09-04,2026-09-04
+P00643,G-52,,STARKE,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00644,G-53,,STARKE,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00645,G-54,,BRUMIT,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00646,G-55,,BRUMIT,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00647,G-62,,Pile,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00648,G-63,,Pile,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00649,G-64,CAROL ANN,MASON,1950,1995,,paper,high,full dates 8-24-1950 - 2-10-1995 | X mark struck after MASON; full dates 8-24-1950 - 2-18-1995; paper source p-23,,import 2026-09-04,2026-09-04
+P00650,G-65,WILLIAM R,MASON,1949,,,paper,high,"birth 1-29-1949, no death date; paper source p-23",,import 2026-09-04,2026-09-04
+P00651,G-66,,Finley,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00652,G-67,,Finley,,,,paper,high,"written as 'F ""' - ditto mark for Finley above | written as ditto: F ""; paper source p-23",,import 2026-09-04,2026-09-04
+P00653,G-68,,Finley,,,,paper,high,"written as 'F ""' - ditto mark for Finley above | written as ditto: F ""; paper source p-23",,import 2026-09-04,2026-09-04
+P00654,G-69,CATHERINE A,FINLEY,1943,2021,,paper,high,full dates 11-6-1943 - 4-11-2021; paper source p-23,,import 2026-09-04,2026-09-04
+P00655,G-70,WALLACE JR,Finley,1932,2016,,paper,high,full dates 9-12-1932 - 12-29-2016; paper source p-23,,import 2026-09-04,2026-09-04
+P00656,G-71,Michael,Melies,1958,1981,,paper,high,full dates 9-25-1958 - 7-18-1981; paper source p-23,,import 2026-09-04,2026-09-04
+P00657,G-72,SELMA F,Melies,1938,,,paper,high,"birth 6-20-1938, no death date | birth only, 6-20-1938; paper source p-23",,import 2026-09-04,2026-09-04
+P00658,G-73,LEROY,Melies,1932,2017,,paper,high,full dates 2-10-1932 - 7-25-2017; paper source p-23,,import 2026-09-04,2026-09-04
+P00659,G-74,LINDA,RENNISON,1949,2005,,paper,high,full dates 2-24-1949 - 4-30-2005; paper source p-23,,import 2026-09-04,2026-09-04
+P00660,G-75,RICHARD E,RENNISON,1947,,,paper,high,"birth 11-3-1947, no death date | birth only, 11-3-1947; paper source p-23",,import 2026-09-04,2026-09-04
+P00661,G-76,,RENNISON,,,,paper,high,surname with a long arrow drawn down the column; spans lots 76-79 | spans lots 76-79 (double-headed arrow); paper source p-23,,import 2026-09-04,2026-09-04
+P00662,G-77,,RENNISON,,,,paper,high,surname with a long arrow drawn down the column; spans lots 76-79 | spans lots 76-79 (double-headed arrow); paper source p-23,,import 2026-09-04,2026-09-04
+P00663,G-78,,RENNISON,,,,paper,high,surname with a long arrow drawn down the column; spans lots 76-79 | spans lots 76-79 (double-headed arrow); paper source p-23,,import 2026-09-04,2026-09-04
+P00664,G-79,,RENNISON,,,,paper,high,surname with a long arrow drawn down the column; spans lots 76-79 | spans lots 76-79 (double-headed arrow); paper source p-23,,import 2026-09-04,2026-09-04
+P00665,G-81,MARGARET,Dougan,1867,1942,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00666,G-82,George,Dougan,1864,1944,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00667,G-83,Clara,Boland,1904,1993,,paper,high,full dates 4-14-1904 - 12-23-1993; paper source p-23,,import 2026-09-04,2026-09-04
+P00668,G-84,Hilary,Boland,1895,1956,,paper,high,full dates 9-5-1895 - 3-30-1956 | full dates 4-5-1895 - 3-30-1956; paper source p-23,,import 2026-09-04,2026-09-04
+P00669,G-85,WM DAVID,Melies,1957,1958,,paper,high,full dates 3-5-1957 - 6-9-1958 (infant) | infant; full dates 3-5-1957 - 6-9-1958; paper source p-23,,import 2026-09-04,2026-09-04
+P00670,G-86,WM,Melies,1929,1995,,paper,high,full dates 12-30-1929 - 3-13-1995; paper source p-23,,import 2026-09-04,2026-09-04
+P00671,G-87,DOROTHY,Melies,1929,2017,,paper,high,'WM' struck through and replaced by 'DOROTHY'; full dates 9-26-1929 - 4-4-2017 | 'WM' struck through before DOROTHY; full dates 9-26-1929 - 4-4-2017; paper source p-23,,import 2026-09-04,2026-09-04
+P00672,G-88,,Melies,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00673,G-89,Delphene,Melies,1908,1971,,paper,high,full dates 10-8-1908 - 10-3-1971; death day unclear | full dates 10-8-1908 - 1971; paper source p-23,,import 2026-09-04,2026-09-04
+P00674,G-90,ALFRED,Melies,1904,1981,,paper,high,full dates 10-2-1904 - 3-2-1981; paper source p-23,,import 2026-09-04,2026-09-04
+P00675,G-91,STEPHEN J,Melies,1944,2020,,paper,high,full dates 4-26-1944 - 4-21-2020; paper source p-23,,import 2026-09-04,2026-09-04
+P00676,G-92,,Melies,,,,paper,high,"written as 'M ""' - ditto mark for Melies above | written as ditto: M ""; paper source p-23",,import 2026-09-04,2026-09-04
+P00677,G-93,,Melies,,,,paper,high,"written as 'M ""' - ditto mark for Melies above | written as ditto: M ""; paper source p-23",,import 2026-09-04,2026-09-04
+P00678,G-94,,Melies,,,,paper,high,surname only; paper source p-23,,import 2026-09-04,2026-09-04
+P00679,G-95,LORETTA,RENNISON,1954,2021,,paper,high,full dates 12-9-1954 - 6-12-2021; paper source p-23,,import 2026-09-04,2026-09-04
+P00680,G-96,NORMAN,RENNISON,,,,paper,high,paper source p-23,,import 2026-09-04,2026-09-04
+P00681,G-101,Johanna,Campbell,1860,1952,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00682,G-102,James,Campbell,1858,1934,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00683,G-104,Brian,Cromley,1946,1947,,paper,high,"dates written below the name, inside the same cell | infant; paper source p-24",,import 2026-09-04,2026-09-04
+P00684,G-105,Edna,Cromley,1884,1973,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00685,G-106,William,Cromley,1858,1958,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00686,G-109,William A,Kennedy,1847,1947,,paper,high,arbiter: a small superscript 'A' follows 'William'. As written the span 1847-1947 is 100 years; birth could be 1867. A boxed 'K' marker is drawn at the right edge of the cell; paper source p-24,,import 2026-09-04,2026-09-04
+P00687,G-110,Lee,BUSH,1907,1973,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00688,G-111,KATHERINE,Kennedy,,,,paper,medium,"'GREEN' written above KENNEDY, apparently an alternate/married surname; the end of the given name is overwritten - could be KATHERINE or KATHERN | 'GREEN' written above 'Kennedy' (possible married name); end of given name struck; paper source p-24",,import 2026-09-04,2026-09-04
+P00689,G-112,WM,Kennedy,,,,paper,medium,"'GREEN' written above KENNEDY, apparently an alternate/married surname | 'GREEN' written above 'Kennedy' (possible married name); paper source p-24",,import 2026-09-04,2026-09-04
+P00690,G-113,ALBERTA,KENNEDY,1919,2001,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00691,G-114,WM R,KENNEDY,1912,1997,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00692,G-115,DAVID T,KENNEDY,1973,2022,,paper,high,'MARK' struck through and replaced by 'DAVID'; full dates 5-8-1973 - 7-7-2022 | a struck-out given name under 'DAVID'; full dates 5-8-1973 - 7-7-2022; paper source p-24,,import 2026-09-04,2026-09-04
+P00693,G-116,ROSEMARY,KENNEDY,1948,2024,,paper,high,full dates 12-31-1948 - 2-15-2024; paper source p-24,,import 2026-09-04,2026-09-04
+P00694,G-117,M,KENNEDY,,,,paper,high,only an initial for the given name; paper source p-24,,import 2026-09-04,2026-09-04
+P00695,G-118,MARK,KENNEDY,,,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00696,G-122,Humphrey,Lynch,1828,1923,,paper,high,birth year could be 1826 or 1828 | birth year could be 1838; paper source p-24,,import 2026-09-04,2026-09-04
+P00697,G-123,Gertrude,Lynch,,,,paper,high,a single year '1915' is written above the name; cannot tell if it is birth or death | single year 1915 written above the name; unclear whether birth or death; paper source p-24,,import 2026-09-04,2026-09-04
+P00698,G-124,JANE,HOLMES,,,,paper,medium,"arbiter: second entry in lot 124, written above 'Holmes, Mary'; single year 1944 written with the name; paper source p-24",,import 2026-09-04,2026-09-04
+P00699,G-124,Mary,Holmes,1890,1974,,paper,medium,"arbiter: death year runs into the column rule; reads 1974, could be 1971. A second entry 'JANE HOLMES 1944' is written above in the same cell; paper source p-24",,import 2026-09-04,2026-09-04
+P00700,G-125,John,Holmes,1856,1936,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00701,G-126,ANNIE,Holmes,1888,1980,,paper,medium,"second name in this cell; the dates 1888-1980 are written just below the cell rule but clearly belong to this entry | dates written on the next line down, inside cell 127; paper source p-24",,import 2026-09-04,2026-09-04
+P00702,G-126,MARY,Holmes,1858,1927,,paper,high,first of two names in this cell | first of two names in lot 126; paper source p-24,,import 2026-09-04,2026-09-04
+P00703,G-128,JIM,WITTHAR,,,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00704,G-129,Bernice,Witthar,1913,1973,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00705,G-130,JOHN,Witthar,1906,1992,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00706,G-131,James J,BURNS,1890,1959,,paper,high,titled 'REV.'; paper source p-24,,import 2026-09-04,2026-09-04
+P00707,G-132,NELLIE,BURNS,1867,1948,,paper,high,"arbiter: second digit is a closed double-loop 8 and the third an open 6, so 1867 not 1887; paper source p-24",,import 2026-09-04,2026-09-04
+P00708,G-133,Mary,TaaFFee,1880,1970,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00709,G-134,Matthew,TaaFFee,1875,1950,,paper,high,paper source p-24,,import 2026-09-04,2026-09-04
+P00710,G-143,,BELL,,,,paper,high,"a boxed word ""BELL"" is drawn straddling lots 143-144; spans lots 143-144 | boxed surname spanning lots 143-144; paper source p-24",,import 2026-09-04,2026-09-04
+P00711,G-144,,BELL,,,,paper,high,"a boxed word ""BELL"" is drawn straddling lots 143-144; spans lots 143-144 | boxed surname spanning lots 143-144; paper source p-24",,import 2026-09-04,2026-09-04
+P00712,H-1,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00713,H-2,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00714,H-3,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00715,H-4,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00716,H-5,Mabel,Moritz,1890,1940,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00717,H-6,Clint,Moritz,1884,1974,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00718,H-7,Margaret,KORTE,1901,1986,,paper,high,two people in lot 7; paper source p-26,,import 2026-09-04,2026-09-04
+P00719,H-7,Ralph,KORTE,1913,1969,,paper,high,two people in lot 7 | birth year could be 1923; paper source p-26,,import 2026-09-04,2026-09-04
+P00720,H-8,,KORTE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00721,H-9,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00722,H-10,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00723,H-11,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00724,H-12,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00725,H-13,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00726,H-21,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00727,H-22,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00728,H-23,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00729,H-24,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00730,H-25,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00731,H-26,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00732,H-27,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00733,H-28,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00734,H-29,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00735,H-30,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00736,H-31,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00737,H-32,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00738,H-33,,KANE,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00739,H-41,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00740,H-42,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00741,H-43,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00742,H-44,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00743,H-45,,VOGEL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00744,H-46,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00745,H-47,,CARROLL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00746,H-48,JOHN JOEY,RECTOR,1988,2014,,paper,high,full dates 12-15-1988 - 3-16-2014; paper source p-26,,import 2026-09-04,2026-09-04
+P00747,H-49,,RECTOR,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00748,H-50,,RECTOR,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00749,H-51,,RECTOR,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00750,H-52,,RECTOR,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00751,H-53,,RECTOR,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00752,H-54,RHONDA,BROWNING,,,,paper,high,date line 10-9-1963 - 10-24-2019 is written in the cell below; it may belong to this lot rather than to lot 55; paper source p-26,,import 2026-09-04,2026-09-04
+P00753,H-55,E W,BROWNING,1963,2019,,paper,medium,dates written above the name per page convention; alternate: the dates belong to BROWNING RHONDA in lot 54 | dates 10-9-1963 - 10-24-2019 written above name inside cell 55; could instead belong to Browning Rhonda in lot 54; paper source p-26,,import 2026-09-04,2026-09-04
+P00754,H-61,Clara,Meschede,1907,1994,,paper,high,full dates 1907 - 12-4-1994; paper source p-26,,import 2026-09-04,2026-09-04
+P00755,H-62,VIOLA,Wansing,1909,1997,,paper,high,"""1939"" written in the margin at the top-left of this cell (probably a purchase year) | full dates 1909 - 4-15-1997; paper source p-26",,import 2026-09-04,2026-09-04
+P00756,H-63,RAY,Wansing,1909,1992,,paper,high,full dates 1909 - 5-30-1992; paper source p-26,,import 2026-09-04,2026-09-04
+P00757,H-64,,GORRELL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00758,H-65,,GORRELL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00759,H-66,CAROLYN,GORRELL,1940,2019,,paper,high,full dates 11-8-1940 - 5-16-2019; paper source p-26,,import 2026-09-04,2026-09-04
+P00760,H-67,CHARLES,GORRELL,1941,2016,,paper,high,full dates 1-3-1941 - 4-11-2016; paper source p-26,,import 2026-09-04,2026-09-04
+P00761,H-68,HOUSTON,MULL,1989,2004,,paper,high,full dates 4-7-1989 - 7-1-2004; paper source p-26,,import 2026-09-04,2026-09-04
+P00762,H-69,MARY ANN,MULL,1932,2017,,paper,high,boxed star symbol drawn in the cell | boxed star symbol drawn in cell; full dates 1932 - 8-15-2017; paper source p-26,,import 2026-09-04,2026-09-04
+P00763,H-70,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00764,H-71,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00765,H-72,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00766,H-73,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00767,H-74,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00768,H-75,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00769,H-76,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00770,H-77,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00771,H-78,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00772,H-79,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00773,H-80,,MULL,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00774,H-81,Glenrose,BACKES,1928,,,paper,high,"""1928"" written above the name (probably lot purchase year) | single year 1928 written above name; paper source p-26",,import 2026-09-04,2026-09-04
+P00775,H-82,Eugene,WANSING,,,,paper,high,"arbiter: written jointly as ""WANSING, Eugene & Robert"" on one line; split into one row per person; ""1935"" written in the left margin (probably the purchase year); paper source p-26",,import 2026-09-04,2026-09-04
+P00776,H-82,Gertrude,Wansing,1869,1943,,paper,medium,"second entry in lot 82; years overwrite the line above, could be 1867-1943 | see Eugene row; same cell entry ""Eugene & Robert""; paper source p-26",,import 2026-09-04,2026-09-04
+P00777,H-82,Robert,WANSING,,,,paper,high,"arbiter: written jointly as ""WANSING, Eugene & Robert"" on one line; split into one row per person; ""1935"" written in the left margin (probably the purchase year); paper source p-26",,import 2026-09-04,2026-09-04
+P00778,H-83,Joseph,WANSING,1867,1945,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00779,H-84,RUTH HOWELL,WANSING,1931,2016,,paper,high,given name reads RUTH HOWELL; last letters overlap the next column; paper source p-26,,import 2026-09-04,2026-09-04
+P00780,H-85,GLENN,WANSING,1927,1963,,paper,high,given name overwritten; reads GLENN; paper source p-26,,import 2026-09-04,2026-09-04
+P00781,H-86,JOHN PHILIP,SAMSON,1922,1995,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00782,H-87,HELEN,SAMSON,1925,2013,,paper,high,full dates 12-15-1925 - 11-8-2013; paper source p-26,,import 2026-09-04,2026-09-04
+P00783,H-88,HALEY,BROWNING,2006,2017,,paper,high,full dates 10-12-2006 - 8-26-2017; paper source p-26,,import 2026-09-04,2026-09-04
+P00784,H-89,JUSTIN,BROWNING,1986,2024,,paper,high,same name also written in lot 92 without dates | full dates 8-10-1986 - 2-17-2024; paper source p-26,,import 2026-09-04,2026-09-04
+P00785,H-90,,BROWNING,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00786,H-91,,BROWNING,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00787,H-92,JUSTIN,BROWNING,,,,paper,high,same name also written in lot 89 with dates 1986-2024 | same given name also appears at lot 89; paper source p-26,,import 2026-09-04,2026-09-04
+P00788,H-96,TIFFANY,WILLIAMS,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00789,H-97,,WILLIAMS,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00790,H-98,,WILLIAMS,,,,paper,high,paper source p-26,,import 2026-09-04,2026-09-04
+P00791,H-99,,WILLIAMS,1948,2017,,paper,medium,"dates written under the name inside cell 99; alternate: they belong to HAYES, NELDA in lot 100 | dates 9-28-1948 - 12-6-2017 written below the name in the same cell; paper source p-26",,import 2026-09-04,2026-09-04
+P00792,H-100,NELDA,HAYES,,,,paper,medium,first of two entries in lot 100; the 9-28-1948 - 12-6-2017 dates in the cell above may be hers | surname spelled HAYES here and HAYS on the next line of the same cell; paper source p-26,,import 2026-09-04,2026-09-04
+P00793,H-100,WM DALE,HAYS,1946,2013,,paper,high,second entry in lot 100; surname written HAYS here but HAYES on the line above | full dates 1946 - 10-30-2013; paper source p-26,,import 2026-09-04,2026-09-04
+P00794,H-101,,Wansing,,,,paper,high,"""NO SPACE"" written beside the name | ""NO SPACE"" written in cell; line/arrow drawn toward this cell; paper source p-28",,import 2026-09-04,2026-09-04
+P00795,H-102,KAREN,Wansing,1935,,,paper,high,"only one date written (4-20-1935), taken as birth | single date 4-20-1935 written above name (no second date); paper source p-28",,import 2026-09-04,2026-09-04
+P00796,H-103,JAMES A,Wansing,1931,2004,,paper,high,full dates 2-7-1931 - 2-26-2004; paper source p-28,,import 2026-09-04,2026-09-04
+P00797,H-104,CORINNE,WANSING,1903,2007,,paper,high,full dates 12-2-1903 - 11-30-2007; paper source p-28,,import 2026-09-04,2026-09-04
+P00798,H-105,Edward,WANSING,1903,1972,,paper,high,full dates 12-5-1903 - 5-17-1972; paper source p-28,,import 2026-09-04,2026-09-04
+P00799,H-106,James E,Samson,1978,1984,,paper,high,birth reads 9-16-1978; could be 9-16-1918 | full dates 9-16-1978 - 7-28-1984; paper source p-28,,import 2026-09-04,2026-09-04
+P00800,H-107,PHILIP,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00801,H-108,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00802,H-109,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00803,H-110,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00804,H-111,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00805,H-112,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00806,H-113,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00807,H-114,,SAMSON,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00808,H-115,PHILIP,SAMSON,,,,paper,high,same name also in lot 107 | same given name also appears at lot 107; paper source p-28,,import 2026-09-04,2026-09-04
+P00809,H-116,MARY ELLEN,WILLIAMS,1952,2006,,paper,high,full dates 11-20-1952 - 3-10-2006; paper source p-28,,import 2026-09-04,2026-09-04
+P00810,H-117,GEORGE,WILLIAMS,1951,2024,,paper,high,full dates 1-5-1951 - 1-15-2024; paper source p-28,,import 2026-09-04,2026-09-04
+P00811,H-118,CHRIS,WILLIAMS,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00812,H-119,AMADA,WILLIAMS,,,,paper,medium,could be AMANDA; paper source p-28,,import 2026-09-04,2026-09-04
+P00813,H-120,AMADA,WILLIAMS,,,,paper,medium,could be AMANDA | could be AMANDA; same name as lot 119; paper source p-28,,import 2026-09-04,2026-09-04
+P00814,H-121,STEVEN,WANSING,,,,paper,high,arrow drawn from this cell pointing east toward lot 101 | arrow drawn at right of cell pointing out of the column; paper source p-28,,import 2026-09-04,2026-09-04
+P00815,H-122,MICHELLE,WANSING,1958,,,paper,high,"only one date written (3-17-1958), taken as birth | single date 3-17-1958 above name; paper source p-28",,import 2026-09-04,2026-09-04
+P00816,H-123,STEVEN,WANSING,1955,,,paper,high,"only one date written (8-22-1955), taken as birth | single date 8-22-1955 above name; same given name at lots 121, 141, 145; paper source p-28",,import 2026-09-04,2026-09-04
+P00817,H-124,SCOTT,WANSING,1966,,,paper,high,"only one date written (10-4-1966), taken as birth | single date 10-4-1966 above name; paper source p-28",,import 2026-09-04,2026-09-04
+P00818,H-125,BABY SHAWN MAKAYLE,WANSING,,,,paper,medium,arbiter: 'MAKAYLE' is written on the line above 'WANSING BABY SHAWN' in the same cell and is read as part of the given name; could be MAKAYLA; paper source p-28,,import 2026-09-04,2026-09-04
+P00819,H-126,JAMES,WANSING,2001,2026,,paper,medium,"""KELLY"" crossed out and ""JAMES"" written over it; death year could be 2020 | ""KELLY"" written then crossed out and ""JAMES"" written above it; full dates 1-19-2001 - 5-28-2026; paper source p-28",,import 2026-09-04,2026-09-04
+P00820,H-127,SARAH,WANSING,,,,paper,high,SARAH written above the surname line; paper source p-28,,import 2026-09-04,2026-09-04
+P00821,H-128,KELLY,WANSING,1957,,,paper,high,"only one date written (7-2-1957), taken as birth | single date 7-2-1957 above name; paper source p-28",,import 2026-09-04,2026-09-04
+P00822,H-129,KELLY,WANSING,,,,paper,high,same name also in lot 128 | same given name as lot 128; paper source p-28,,import 2026-09-04,2026-09-04
+P00823,H-130,LESLIE,DAVES,,,,paper,medium,"arbiter: initial letter is D (bowl closes on the stem, no leg - compare VANDERBECK in lot 131), so not RAVES; fourth letter is an angular E, so DAVES; could be DAVIS; paper source p-28",,import 2026-09-04,2026-09-04
+P00824,H-131,ROSE ANN,VANDERBECK,,,,paper,high,surname could be VANDERBECK or VANDERBECR; paper source p-28,,import 2026-09-04,2026-09-04
+P00825,H-132,MIKE J,WANSING,1932,2005,,paper,high,full dates 9-29-1932 - 9-16-2005; paper source p-28,,import 2026-09-04,2026-09-04
+P00826,H-133,ANGIE,WANSING,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00827,H-134,KEVIN M,WANSING,1962,2018,,paper,high,full dates 1-22-1962 - 5-29-2018; paper source p-28,,import 2026-09-04,2026-09-04
+P00828,H-136,BARBARA,TAYLOR,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00829,H-137,CLAUDE E JR,TAYLOR,1941,2021,,paper,high,full dates 7-27-1941 - 1-9-2021; paper source p-28,,import 2026-09-04,2026-09-04
+P00830,H-141,STEVEN,WANSING,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00831,H-142,,WANSING,,,,paper,high,long vertical arrow spans lots 142-144 | long vertical bracket drawn spanning lots 142-145; paper source p-28,,import 2026-09-04,2026-09-04
+P00832,H-143,,WANSING,,,,paper,high,long vertical arrow spans lots 142-144 | long vertical bracket drawn spanning lots 142-145; paper source p-28,,import 2026-09-04,2026-09-04
+P00833,H-144,,WANSING,,,,paper,high,long vertical arrow spans lots 142-144 | long vertical bracket drawn spanning lots 142-145; paper source p-28,,import 2026-09-04,2026-09-04
+P00834,H-145,STEVEN,WANSING,,,,paper,high,long vertical bracket drawn spanning lots 142-145; paper source p-28,,import 2026-09-04,2026-09-04
+P00835,H-146,RAYMOND,BOLAND,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00836,H-147,,Boland,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00837,H-148,,BOLAND,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00838,H-149,,BOLAND,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00839,H-150,RAYMOND,BOLAND,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00840,H-151,JOE,WANSING,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00841,H-152,JOE,WANSING,,,,paper,high,paper source p-28,,import 2026-09-04,2026-09-04
+P00842,H-161,DIANE,HEERMANN,1961,2026,,paper,high,"""CREMATION"" written in the left margin; X mark over the cell; lot 161 is in the added strip west of lot 160 and is not on the number grid p-25 | ""CREMATION"" written in left margin of this cell; large X drawn over the surname; full dates 1-22-1961 - 1-28-2026; lot is in an extra strip of lots 161-170 west of lot column 141-160; paper source p-28",,import 2026-09-04,2026-09-04
+P00843,H-162,LYN,HEERMANN,,,,paper,high,lot 162 is in the added strip west of lot 160 and is not on the number grid p-25 | given name LYN written above surname; extra strip 161-170; paper source p-28,,import 2026-09-04,2026-09-04
+P00844,I-1,John,Thiel,,,,paper,high,given name written over the surname; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00845,I-2,,Thiel,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00846,I-3,Patricia,Benyo,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00847,I-4,,Benyo,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00848,I-5,Robert P,Benyo,1970,2017,,paper,high,dates written 2-12-1970 to 2-7-2017; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00849,I-6,Ellen Holmes,Malone,1944,2020,,paper,high,dates written 10-30-1944 to 1-24-2020; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00850,I-7,Thomas,Malone,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00851,I-21,,Slattery,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00852,I-22,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00853,I-23,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00854,I-24,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00855,J-1,Charles,Vlasin,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00856,J-2,,Vlasin,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00857,J-21,,Slattery,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00858,J-22,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00859,J-23,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00860,J-24,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00861,K-1,,Vlasin,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00862,K-2,,Vlasin,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00863,K-21,,Mizik,,,,paper,low,"surname illegible, reads roughly MIZIK or MITZK; paper source newer-field sheets p-31..p-43",,import 2026-09-04,2026-09-04
+P00864,K-22,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00865,K-23,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00866,K-24,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00867,L-21,,Slattery,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00868,L-22,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00869,L-23,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00870,L-24,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00871,L-25,,Slattery,,,,paper,medium,written as the shorthand S; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00872,M-21,,Slattery,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00873,M-22,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00874,M-23,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00875,M-24,,Slattery,,,,paper,medium,written as the shorthand S inside one large Slattery family block; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00876,N-20,Nathan,Hoeflecker,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00877,N-22,,Gormley,1923,2008,,paper,medium,"given name illegible, possibly Gwen; dates 1923 to 2008; paper source newer-field sheets p-31..p-43",,import 2026-09-04,2026-09-04
+P00878,N-23,James,Gormley,,,,paper,low,"two overlapping entries, the split between rows 22 and 23 is unclear; paper source newer-field sheets p-31..p-43",,import 2026-09-04,2026-09-04
+P00879,N-24,Karol Agota,Chernecky,,,,paper,low,given name uncertain; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00880,N-25,Joan G,Bartholomew,,,,paper,medium,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00881,O-1,,Frauenhoffer,,,,paper,medium,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00882,O-2,Theodore,Frauenhoffer,1956,2015,,paper,medium,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00883,O-21,Randy,Hoeflecker,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00884,O-22,Fr Kevin,Gormley,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00885,O-25,Raymond,Thompson,,,,paper,high,spans rows 25 and 26; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00886,O-26,Raymond,Thompson,,,,paper,high,spans rows 25 and 26; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00887,P-1,Jane,Weeks,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00888,P-2,,Weeks,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00889,P-3,,Weeks,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00890,P-4,,Weeks,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00891,P-25,Pam,Whitney,,,,paper,medium,two names in one cell with an arrow; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00892,P-25,Rich,Whitney,,,,paper,medium,two names in one cell with an arrow; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00893,P-26,Rich,Whitney,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00894,P-30,,Whitney,,,,paper,medium,arrow from the rows above; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00895,Q-25,,Whitney,,,,paper,high,arrow tying to the Whitney cell in column P; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00896,Q-30,,Whitney,,,,paper,medium,arrow from the rows above; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00897,R-1,Elaine,Wagner,1943,2022,,paper,medium,"cremation, dates 1-31-1943 to 12-14-2022; surname crossed with an X; paper source newer-field sheets p-31..p-43",,import 2026-09-04,2026-09-04
+P00898,R-2,Richard Wagner,Sr,1941,2023,,paper,high,dates 11-20-1941 to 7-2-2023; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00899,R-3,Diane,Ortzian,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00900,R-4,Richard Wagner,Jr,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00901,R-5,Laura,Woodruff,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00902,R-6,John,Woodruff,,,,paper,medium,overwrites a repeated LAURA; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00903,S-26,,Montgomery,,,,paper,medium,written MONTGOMERY C; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00904,S-27,Robert,Montgomery,1954,2026,,paper,medium,"dates 10-29-1954 to 4-7-2026; the death date postdates transcription, so this may be a reserved entry or a misread digit; paper source newer-field sheets p-31..p-43",,import 2026-09-04,2026-09-04
+P00905,T-18,,Samson,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00906,T-19,,Samson,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00907,T-20,Justin,Samson,,,,paper,high,paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00908,T-21,Jazzlyn,Samson,1998,2019,,paper,medium,given name could read Jazztyn; dates 8-22-1998 to 5-27-2019; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00909,T-22,Jeannie,Samson,,,,paper,low,could read Jeannse; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04
+P00910,T-23,John Pat,Samson,,,,paper,low,could read John Paul; paper source newer-field sheets p-31..p-43,,import 2026-09-04,2026-09-04

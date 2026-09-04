@@ -1,0 +1,24 @@
+section,name,numbering_direction,columns,lot_length_ft,rows,width_ft,depth_ft,origin_note,geometry_source
+A,Section A,west to east,1:15;21:16;41:12;61:11;81:10;101:17;121:12;141:12;161:5,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+B,Section B,east to west,141:15;121:16;101:13;81:10;61:12;41:12;21:16;1:16,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+C,Section C,west to east,1:14;21:10;41:8;61:14;81:10;101:10;121:9;141:10;161:10;181:10;201:5,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+D,Section D,east to west,161:5;141:10;121:16;101:13;81:10;61:12;41:12;21:16;1:16,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+E,Section E,west to east,1:15;21:17;41:16;61:15;81:14;101:10;121:10;141:13,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+F,Section F,east to west,141:15;121:16;101:13;81:10;61:12;41:12;21:16;1:16,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+G,Section G,west to east,1:15;21:11;41:12;61:12;81:15;101:10;121:12;141:12;161:11,varies (column width),20,110,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch,paper
+H,Section H,east to west,161:5;141:15;121:16;101:13;81:10;61:12;41:12;21:16;1:16,varies (column width),20,115,100,paper number grid; lot 1 at the north end of its column; 5 ft row pitch; includes the later 5 ft strip of lots 161-170 on the west edge (not on the number grid p-25),paper
+I,"Newer east field, column I",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+J,"Newer east field, column J",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+K,"Newer east field, column K",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+L,"Newer east field, column L",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+M,"Newer east field, column M",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+N,"Newer east field, column N",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+O,"Newer east field, column O",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+P,"Newer east field, column P",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+Q,"Newer east field, column Q",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+R,"Newer east field, column R",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+S,"Newer east field, column S",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+T,"Newer east field, column T",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+U,"Newer east field, column U",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+V,"Newer east field, column V",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper
+W,"Newer east field, column W",north to south (rows 1-80); columns lettered I-W west to east,1:15,15,80,15,400,"newer lettered field, 15 columns x 80 rows of 5 x 15 ft plots",paper

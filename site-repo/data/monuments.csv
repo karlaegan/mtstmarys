@@ -1,0 +1,3 @@
+monument_id,description,northing_ft,easting_ft,latitude,longitude,elevation_ft,set_by,set_on,notes
+MON-EXAMPLE-1,"EXAMPLE row - delete once real monuments are set. Iron pin, northwest inside corner of the loop drive (the anchor used for lots.geojson)",1000000.00,2000000.00,39.137249,-93.306637,700.0,EXAMPLE,2026-09-04,"EXAMPLE. Northing/easting are placeholders in Missouri State Plane West NAD83 US survey feet, EPSG:2817 (verify before use)."
+MON-EXAMPLE-2,"EXAMPLE row - delete once real monuments are set. Corner marker, southeast corner of the newer east field at the chain link fence",999600.00,2000475.00,39.136151,-93.304963,695.0,EXAMPLE,2026-09-04,EXAMPLE. Table is otherwise empty until a survey is done.

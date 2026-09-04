@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mount Saint Mary's Cemetery map</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#EDEFE8; --paper:#F8F8F3; --ink:#1F2A24; --ink-2:#4E5B54; --line:#B9C0B6; --line-2:#DDE1D8;
+  --accent:#2E5A45; --accent-ink:#FFFFFF; --hit:#B94A2C; --hit-soft:#F2D6CB;
+  --taken:#8FD19E; --open:#FBFBF7; --unusable:#B3AFA2;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans",system-ui,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.45}
+a{color:var(--accent)}
+header{padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;background:var(--paper);border-bottom:1px solid var(--line-2)}
+h1{margin:0;font-size:18px;font-weight:600;letter-spacing:-.01em}
+header nav{display:flex;gap:14px;font-size:13px;margin-left:auto}
+.notice{background:var(--hit-soft);color:#5E2415;padding:7px 16px;font-size:12.5px;border-bottom:1px solid var(--line-2)}
+.wrap{display:flex;height:calc(100vh - 108px);min-height:360px}
+#map{flex:1;min-width:0;background:#2b2f2c}
+aside{width:330px;flex:none;background:var(--paper);border-left:1px solid var(--line-2);overflow:auto;padding:14px 16px 30px}
+@media (max-width:760px){
+  .wrap{flex-direction:column;height:auto}
+  #map{height:58vh;min-height:300px}
+  aside{width:auto;border-left:0;border-top:1px solid var(--line-2);max-height:none}
+}
+label.f{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2);margin-bottom:4px}
+input[type=search]{font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);width:100%}
+input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px}
+.results{margin:10px 0 0;font-size:13px;color:var(--ink-2)}
+.results button{font:inherit;text-align:left;background:var(--hit-soft);color:var(--ink);border:0;border-radius:3px;padding:4px 8px;margin:0 5px 5px 0;cursor:pointer}
+.results button:focus-visible{outline:2px solid var(--accent)}
+.card{margin-top:16px;border-top:1px solid var(--line-2);padding-top:12px}
+.card h2{margin:0 0 2px;font-size:17px;font-weight:600}
+.pill{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.07em;padding:2px 7px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--ink-2)}
+.pill.taken{background:var(--taken);border-color:#6ea87c;color:#12301C}
+.pill.unusable{background:var(--unusable);border-color:#8d897d;color:#241F14}
+.people{list-style:none;margin:10px 0 0;padding:0}
+.people li{padding:6px 0;border-bottom:1px dotted var(--line-2)}
+.yrs{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--ink-2)}
+.meta{font-size:12.5px;color:var(--ink-2);margin-top:8px}
+.btnrow{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+.btnrow a{display:inline-block;font-size:13px;padding:6px 11px;border-radius:4px;background:var(--accent);color:var(--accent-ink);text-decoration:none}
+.legend{font-size:12px;color:var(--ink-2);margin-top:18px;border-top:1px solid var(--line-2);padding-top:10px}
+.legend span{display:flex;align-items:center;gap:7px;margin-top:5px}
+.sw{width:15px;height:11px;border:1px solid var(--line);display:inline-block;flex:none}
+.leaflet-container{font:inherit}
+.seclabel{background:transparent;border:0;box-shadow:none;color:#fff;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:13px;text-shadow:0 0 3px rgba(0,0,0,.85),0 0 6px rgba(0,0,0,.7)}
+.seclabel::before{display:none}
+.seclabel.col{display:none}
+body.zoomed .seclabel.col{display:block}
+.locate-btn{background:#fff;width:34px;height:34px;line-height:34px;text-align:center;font-size:16px;cursor:pointer;display:block;color:var(--ink)}
+footer{padding:14px 16px 26px;font-size:12px;color:var(--ink-2);background:var(--paper);border-top:1px solid var(--line-2)}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Mount Saint Mary's Cemetery</h1>
+    <div style="font-size:12.5px;color:var(--ink-2)">Shackleford, Saline County, Missouri</div>
+  </div>
+  <nav><a href="plat.html">Plat view</a><a href="about.html">About</a></nav>
+</header>
+<p class="notice" id="notice">Positions are approximate. The lot outlines are traced from the paper section maps, not from a survey, and can be off by 10 to 20 feet on the ground.</p>
+<div class="wrap">
+  <div id="map"></div>
+  <aside>
+    <label class="f" for="q">Search a name or a lot</label>
+    <input id="q" type="search" placeholder="Wansing, F 134, K21" autocomplete="off">
+    <div class="results" id="results">Type a surname or a lot number, or tap a lot on the map.</div>
+    <div id="card" class="card" hidden></div>
+    <div class="legend">
+      <span><i class="sw" style="background:#8FD19E"></i>Taken (sold, reserved or occupied)</span>
+      <span><i class="sw" style="background:#FBFBF7"></i>Open, no record</span>
+      <span><i class="sw" style="background:#B3AFA2"></i>Not usable (tree, path, marked out)</span>
+      <span><i class="sw" style="background:#B94A2C;border-color:#B94A2C"></i>Search match or selected lot</span>
+    </div>
+  </aside>
+</div>
+<footer id="foot">Records as of 2026-09-04. Public build. No trackers, no analytics.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>/* fall back to the copy in this repository if the CDN is blocked */
+if (!window.L) { document.write('<scr' + 'ipt src="vendor/leaflet/leaflet.js"><\/scr' + 'ipt>'); }</script>
+<script>
+(function () {
+  "use strict";
+  var STYLE = {
+    open:     {color:"#ffffff", weight:1, opacity:0.45, fillColor:"#FBFBF7", fillOpacity:0.10},
+    taken:    {color:"#ffffff", weight:1, opacity:0.60, fillColor:"#8FD19E", fillOpacity:0.45},
+    unusable: {color:"#ffffff", weight:1, opacity:0.55, fillColor:"#B3AFA2", fillOpacity:0.55},
+    hit:      {color:"#B94A2C", weight:2, opacity:1,    fillColor:"#B94A2C", fillOpacity:0.80}
+  };
+  var map = L.map("map", {zoomControl:true, preferCanvas:true, maxZoom:22});
+  var esri = L.tileLayer(
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    {maxNativeZoom:19, maxZoom:22,
+     attribution:"Tiles &copy; Esri. Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community"});
+  var osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {maxNativeZoom:19, maxZoom:22, attribution:"&copy; OpenStreetMap contributors"});
+  esri.addTo(map);
+  L.control.layers({"Aerial photo (Esri)":esri, "Street map (OpenStreetMap)":osm}, null,
+                   {position:"topright"}).addTo(map);
+  map.setView([39.1367, -93.3058], 18);
+
+  var Locate = L.Control.extend({
+    options:{position:"topleft"},
+    onAdd:function(){
+      var d = L.DomUtil.create("div", "leaflet-bar");
+      var a = L.DomUtil.create("a", "locate-btn", d);
+      a.href = "#"; a.title = "Show where I am"; a.setAttribute("role","button");
+      a.setAttribute("aria-label","Show where I am"); a.textContent = "◎";
+      L.DomEvent.on(a, "click", function (e) {
+        L.DomEvent.stop(e);
+        map.locate({setView:true, maxZoom:20, enableHighAccuracy:true});
+      });
+      return d;
+    }
+  });
+  map.addControl(new Locate());
+  var youMarker = null;
+  map.on("locationfound", function (e) {
+    if (youMarker) { map.removeLayer(youMarker); }
+    youMarker = L.circleMarker(e.latlng, {radius:7, color:"#B94A2C", weight:3,
+      fillColor:"#B94A2C", fillOpacity:0.5}).addTo(map).bindTooltip("You are about here");
+  });
+  map.on("locationerror", function () {
+    document.getElementById("results").textContent =
+      "Your device did not share a location. Check location permission for this site.";
+  });
+
+  var layers = {}, DATA = null, selected = null, hits = [];
+  var card = document.getElementById("card");
+  var results = document.getElementById("results");
+
+  function norm(st) {
+    if (st === "unusable") { return "unusable"; }
+    if (st === "open" || st === "unknown") { return "open"; }
+    return "taken";
+  }
+  function statusWord(st) {
+    var n = norm(st);
+    var word = n === "taken" ? "Taken" : n === "unusable" ? "Not usable" : "Open";
+    return (st === n) ? word : word + " (" + st + ")";
+  }
+  function baseStyle(id) {
+    return STYLE[norm(DATA.lots[id].st)] || STYLE.open;
+  }
+  function paint(id) {
+    var lyr = layers[id];
+    if (!lyr) { return; }
+    var isHit = id === selected || hits.indexOf(id) !== -1;
+    lyr.setStyle(isHit ? STYLE.hit : baseStyle(id));
+  }
+  function years(p) {
+    if (p.b && p.d) { return p.b + " to " + p.d; }
+    if (p.d) { return "died " + p.d; }
+    if (p.b) { return "born " + p.b; }
+    return "years not recorded";
+  }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];
+    });
+  }
+  function show(id) {
+    var lot = DATA.lots[id];
+    if (!lot) { return; }
+    var prev = selected;
+    selected = id;
+    if (prev) { paint(prev); }
+    paint(id);
+    var sec = DATA.sections[lot.s] || {};
+    var html = "<h2>Lot " + esc(id) + "</h2>" +
+      "<div><span class=\"pill " + norm(lot.st) + "\">" + statusWord(lot.st) + "</span></div>";
+    if (lot.p && lot.p.length) {
+      html += "<ul class=\"people\">";
+      lot.p.forEach(function (p) {
+        html += "<li>" + esc(p.name) + " <span class=\"yrs\">" + esc(years(p)) + "</span>";
+        if (p.fg) {
+          html += " <a href=\"" + esc(p.fg) + "\" rel=\"noopener\" target=\"_blank\">Find a Grave</a>";
+        }
+        html += "</li>";
+      });
+      html += "</ul>";
+    } else {
+      html += "<p class=\"meta\">No burial is recorded on this lot.</p>";
+    }
+    html += "<p class=\"meta\">" + esc(sec.name || ("Section " + lot.s)) +
+      ", lot " + lot.n + ". About " + lot.dim[0] + " ft by " + lot.dim[1] + " ft.</p>";
+    var nb = lot.nb || {};
+    var nbits = ["north","south","east","west"].filter(function (k) { return nb[k]; })
+      .map(function (k) { return k + " " + nb[k]; });
+    if (nbits.length) {
+      html += "<p class=\"meta\">Neighboring lots: " + esc(nbits.join(", ")) + ".</p>";
+    }
+    var PUBLIC_KEYS = ["s","n","st","g","dim","nb","p"];
+    Object.keys(lot).forEach(function (k) {
+      if (PUBLIC_KEYS.indexOf(k) === -1 && lot[k]) {
+        html += "<p class=\"meta\"><b>" + esc(k.replace("_", " ")) + ":</b> " +
+          esc(lot[k]) + "</p>";
+      }
+    });
+    html += "<div class=\"btnrow\"><a href=\"stakeout.html?lot=" + encodeURIComponent(id) +
+      "\">Stake-out sheet</a><a href=\"plat.html#" + encodeURIComponent(id) +
+      "\">See on the plat</a></div>";
+    card.innerHTML = html;
+    card.hidden = false;
+  }
+
+  function draw() {
+    var group = L.featureGroup();
+    Object.keys(DATA.sections).forEach(function (k) {
+      var s = DATA.sections[k];
+      var b = [[s.g[0][1], s.g[0][0]], [s.g[1][1], s.g[1][0]]];
+      L.rectangle(b, {color:"#ffffff", weight:1.6, opacity:0.85, dashArray:"6 4",
+                      fill:false, interactive:false}).addTo(map);
+      L.marker([(b[0][0] + b[1][0]) / 2, (b[0][1] + b[1][1]) / 2],
+        {interactive:false, icon:L.divIcon({className:"seclabel" + (s.newer ? " col" : ""),
+         html:esc(k), iconSize:[20,16]})}).addTo(map);
+    });
+    Object.keys(DATA.lots).forEach(function (id) {
+      var lot = DATA.lots[id];
+      var b = [[lot.g[0][1], lot.g[0][0]], [lot.g[1][1], lot.g[1][0]]];
+      var r = L.rectangle(b, baseStyle(id));
+      r.on("click", function () { show(id); });
+      r.bindTooltip(id + (lot.p && lot.p.length ? ": " + lot.p[0].name : ""), {sticky:true});
+      r.addTo(map);
+      layers[id] = r;
+      group.addLayer(r);
+    });
+    function zoomClass() {
+      document.body.classList.toggle("zoomed", map.getZoom() >= 19);
+    }
+    map.on("zoomend", zoomClass);
+    map.fitBounds(L.latLngBounds(DATA.meta.bounds).pad(0.05));
+    zoomClass();
+  }
+
+  function search() {
+    var term = document.getElementById("q").value.trim().toLowerCase();
+    hits.forEach(paint);
+    hits = [];
+    if (!term) {
+      results.textContent = "Type a surname or a lot number, or tap a lot on the map.";
+      return;
+    }
+    var m = term.match(/^([a-w])\s*-?\s*(\d{1,3})$/);
+    if (m) {
+      var id = m[1].toUpperCase() + "-" + parseInt(m[2], 10);
+      hits = DATA.lots[id] ? [id] : [];
+    } else {
+      Object.keys(DATA.lots).forEach(function (id) {
+        var lot = DATA.lots[id];
+        if (!lot.p) { return; }
+        var found = lot.p.some(function (p) {
+          return p.name.toLowerCase().indexOf(term) !== -1;
+        });
+        if (found) { hits.push(id); }
+      });
+      hits.sort(function (a, b) {
+        return a.localeCompare(b, undefined, {numeric:true});
+      });
+    }
+    hits.forEach(paint);
+    if (!hits.length) {
+      results.textContent = "No matching lots.";
+      return;
+    }
+    map.fitBounds(layers[hits[0]].getBounds().pad(6), {maxZoom:21});
+    show(hits[0]);
+    var shown = hits.slice(0, 60);
+    results.innerHTML = hits.length + " match" + (hits.length === 1 ? "" : "es") + ": ";
+    shown.forEach(function (id) {
+      var lot = DATA.lots[id];
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = id + (lot.p && lot.p.length ? " " + lot.p[0].name : "");
+      b.addEventListener("click", function () {
+        map.fitBounds(layers[id].getBounds().pad(6), {maxZoom:21});
+        show(id);
+      });
+      results.appendChild(b);
+    });
+    if (hits.length > shown.length) {
+      results.appendChild(document.createTextNode(
+        "and " + (hits.length - shown.length) + " more"));
+    }
+  }
+
+  fetch("data/public.json", {cache:"no-cache"}).then(function (r) {
+    if (!r.ok) { throw new Error("HTTP " + r.status); }
+    return r.json();
+  }).then(function (json) {
+    DATA = json;
+    draw();
+    document.getElementById("q").addEventListener("input", search);
+    document.getElementById("foot").textContent =
+      DATA.meta.counts.lots + " lots, " + DATA.meta.counts.people +
+      " recorded burials. Records as of " + DATA.meta.generated +
+      ". No trackers, no analytics.";
+    var want = new URLSearchParams(location.search).get("lot");
+    if (want && DATA.lots[want]) {
+      map.fitBounds(layers[want].getBounds().pad(6), {maxZoom:21});
+      show(want);
+    }
+  }).catch(function (err) {
+    document.getElementById("notice").textContent =
+      "The lot data could not be loaded (" + err.message +
+      "). Serve this folder over http rather than opening the file directly.";
+  });
+}());
+</script>
+</body>
+</html>

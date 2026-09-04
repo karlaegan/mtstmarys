@@ -1,0 +1,862 @@
+{
+ "type": "FeatureCollection",
+ "properties": {
+  "crs": "WGS84 lon/lat",
+  "geometry_source": "paper-approximate",
+  "accuracy_note": "Approximate. Derived from the paper column widths and a single anchor placed from the cemetery's published coordinates, north-up. Absolute accuracy is on the order of 10 to 20 ft; internal spacing follows the paper maps. Replace with surveyed corners when available.",
+  "georef": "see data/georef.json"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "A",
+    "name": "Section A",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30663727,
+       39.13697455
+      ],
+      [
+       -93.30624948,
+       39.13697455
+      ],
+      [
+       -93.30624948,
+       39.1372491
+      ],
+      [
+       -93.30663727,
+       39.1372491
+      ],
+      [
+       -93.30663727,
+       39.13697455
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "B",
+    "name": "Section B",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30623186,
+       39.13697455
+      ],
+      [
+       -93.30584407,
+       39.13697455
+      ],
+      [
+       -93.30584407,
+       39.1372491
+      ],
+      [
+       -93.30623186,
+       39.1372491
+      ],
+      [
+       -93.30623186,
+       39.13697455
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "C",
+    "name": "Section C",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30663727,
+       39.1367
+      ],
+      [
+       -93.30624948,
+       39.1367
+      ],
+      [
+       -93.30624948,
+       39.13697455
+      ],
+      [
+       -93.30663727,
+       39.13697455
+      ],
+      [
+       -93.30663727,
+       39.1367
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "D",
+    "name": "Section D",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30623186,
+       39.1367
+      ],
+      [
+       -93.30584407,
+       39.1367
+      ],
+      [
+       -93.30584407,
+       39.13697455
+      ],
+      [
+       -93.30623186,
+       39.13697455
+      ],
+      [
+       -93.30623186,
+       39.1367
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "E",
+    "name": "Section E",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30663727,
+       39.13642545
+      ],
+      [
+       -93.30624948,
+       39.13642545
+      ],
+      [
+       -93.30624948,
+       39.1367
+      ],
+      [
+       -93.30663727,
+       39.1367
+      ],
+      [
+       -93.30663727,
+       39.13642545
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "F",
+    "name": "Section F",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30623186,
+       39.13642545
+      ],
+      [
+       -93.30584407,
+       39.13642545
+      ],
+      [
+       -93.30584407,
+       39.1367
+      ],
+      [
+       -93.30623186,
+       39.1367
+      ],
+      [
+       -93.30623186,
+       39.13642545
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "G",
+    "name": "Section G",
+    "width_ft": 110.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30663727,
+       39.1361509
+      ],
+      [
+       -93.30624948,
+       39.1361509
+      ],
+      [
+       -93.30624948,
+       39.13642545
+      ],
+      [
+       -93.30663727,
+       39.13642545
+      ],
+      [
+       -93.30663727,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "H",
+    "name": "Section H",
+    "width_ft": 115.0,
+    "depth_ft": 100.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30624948,
+       39.1361509
+      ],
+      [
+       -93.30584407,
+       39.1361509
+      ],
+      [
+       -93.30584407,
+       39.13642545
+      ],
+      [
+       -93.30624948,
+       39.13642545
+      ],
+      [
+       -93.30624948,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "I",
+    "name": "Newer east field column I",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30575593,
+       39.1361509
+      ],
+      [
+       -93.30570305,
+       39.1361509
+      ],
+      [
+       -93.30570305,
+       39.1372491
+      ],
+      [
+       -93.30575593,
+       39.1372491
+      ],
+      [
+       -93.30575593,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "J",
+    "name": "Newer east field column J",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30570305,
+       39.1361509
+      ],
+      [
+       -93.30565017,
+       39.1361509
+      ],
+      [
+       -93.30565017,
+       39.1372491
+      ],
+      [
+       -93.30570305,
+       39.1372491
+      ],
+      [
+       -93.30570305,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "K",
+    "name": "Newer east field column K",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30565017,
+       39.1361509
+      ],
+      [
+       -93.30559729,
+       39.1361509
+      ],
+      [
+       -93.30559729,
+       39.1372491
+      ],
+      [
+       -93.30565017,
+       39.1372491
+      ],
+      [
+       -93.30565017,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "L",
+    "name": "Newer east field column L",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30559729,
+       39.1361509
+      ],
+      [
+       -93.30554441,
+       39.1361509
+      ],
+      [
+       -93.30554441,
+       39.1372491
+      ],
+      [
+       -93.30559729,
+       39.1372491
+      ],
+      [
+       -93.30559729,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "M",
+    "name": "Newer east field column M",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30554441,
+       39.1361509
+      ],
+      [
+       -93.30549153,
+       39.1361509
+      ],
+      [
+       -93.30549153,
+       39.1372491
+      ],
+      [
+       -93.30554441,
+       39.1372491
+      ],
+      [
+       -93.30554441,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "N",
+    "name": "Newer east field column N",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30549153,
+       39.1361509
+      ],
+      [
+       -93.30543865,
+       39.1361509
+      ],
+      [
+       -93.30543865,
+       39.1372491
+      ],
+      [
+       -93.30549153,
+       39.1372491
+      ],
+      [
+       -93.30549153,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "O",
+    "name": "Newer east field column O",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30543865,
+       39.1361509
+      ],
+      [
+       -93.30538577,
+       39.1361509
+      ],
+      [
+       -93.30538577,
+       39.1372491
+      ],
+      [
+       -93.30543865,
+       39.1372491
+      ],
+      [
+       -93.30543865,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "P",
+    "name": "Newer east field column P",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30538577,
+       39.1361509
+      ],
+      [
+       -93.30533289,
+       39.1361509
+      ],
+      [
+       -93.30533289,
+       39.1372491
+      ],
+      [
+       -93.30538577,
+       39.1372491
+      ],
+      [
+       -93.30538577,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "Q",
+    "name": "Newer east field column Q",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30533289,
+       39.1361509
+      ],
+      [
+       -93.30528001,
+       39.1361509
+      ],
+      [
+       -93.30528001,
+       39.1372491
+      ],
+      [
+       -93.30533289,
+       39.1372491
+      ],
+      [
+       -93.30533289,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "R",
+    "name": "Newer east field column R",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30528001,
+       39.1361509
+      ],
+      [
+       -93.30522713,
+       39.1361509
+      ],
+      [
+       -93.30522713,
+       39.1372491
+      ],
+      [
+       -93.30528001,
+       39.1372491
+      ],
+      [
+       -93.30528001,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "S",
+    "name": "Newer east field column S",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30522713,
+       39.1361509
+      ],
+      [
+       -93.30517425,
+       39.1361509
+      ],
+      [
+       -93.30517425,
+       39.1372491
+      ],
+      [
+       -93.30522713,
+       39.1372491
+      ],
+      [
+       -93.30522713,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "T",
+    "name": "Newer east field column T",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30517425,
+       39.1361509
+      ],
+      [
+       -93.30512137,
+       39.1361509
+      ],
+      [
+       -93.30512137,
+       39.1372491
+      ],
+      [
+       -93.30517425,
+       39.1372491
+      ],
+      [
+       -93.30517425,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "U",
+    "name": "Newer east field column U",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30512137,
+       39.1361509
+      ],
+      [
+       -93.30506849,
+       39.1361509
+      ],
+      [
+       -93.30506849,
+       39.1372491
+      ],
+      [
+       -93.30512137,
+       39.1372491
+      ],
+      [
+       -93.30512137,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "V",
+    "name": "Newer east field column V",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30506849,
+       39.1361509
+      ],
+      [
+       -93.30501561,
+       39.1361509
+      ],
+      [
+       -93.30501561,
+       39.1372491
+      ],
+      [
+       -93.30506849,
+       39.1372491
+      ],
+      [
+       -93.30506849,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "section": "W",
+    "name": "Newer east field column W",
+    "width_ft": 15.0,
+    "depth_ft": 400.0,
+    "geometry_source": "paper-approximate"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -93.30501561,
+       39.1361509
+      ],
+      [
+       -93.30496273,
+       39.1361509
+      ],
+      [
+       -93.30496273,
+       39.1372491
+      ],
+      [
+       -93.30501561,
+       39.1372491
+      ],
+      [
+       -93.30501561,
+       39.1361509
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
