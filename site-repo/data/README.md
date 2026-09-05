@@ -28,6 +28,25 @@ every other file here, including a future surveyed geometry.
 | `georef.json` | n/a | The anchor, the scale, and every layout assumption, so the site can re-derive the geometry and a survey can replace it. |
 | `import_report.md` | n/a | Counts per table and per section, the A–C merge tallies, and open questions. |
 
+## Status and burial_count are derived at build time
+
+`build/build.py` works out `status` and `burial_count` for you, so the board
+never has to keep them in sync by hand:
+
+* `burial_count` is always set to the number of `people.csv` rows on the lot.
+  Whatever is typed in the `burial_count` column is advisory only and is
+  overwritten.
+* A lot with one or more `people.csv` rows becomes `occupied` automatically, no
+  matter what the `status` column says. So to mark a lot occupied, just add the
+  name on the People tab; the lot turns green on its own.
+* The `status` column only matters for lots with **no** burials. There it may be
+  `sold`, `reserved`, `unusable` or `open`; blank or unrecognized becomes
+  `open`. A misspelling such as `sould` still fails the build so it gets caught.
+
+In short: type names on the People tab, and type `sold` / `reserved` /
+`unusable` / `open` on the Lots tab only for empty lots. Never write `occupied`
+by hand and never touch `burial_count`.
+
 ## Privacy rule
 
 `purchaser`, `price`, `paid`, `year_sold`, board `notes`, `updated_by`,
