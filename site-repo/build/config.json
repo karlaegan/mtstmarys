@@ -1,10 +1,10 @@
 {
-  "source": "local",
+  "source": "sheet",
   "sheet_csv_urls": {
-    "Lots": "",
-    "People": "",
-    "Sections": "",
-    "Monuments": ""
+    "Lots": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0vDnx6GNnVydTb2F6BRMqjujRnz35VDhDXMuBKA30LHis2htkbe1YA6nnV7soczDLoRInyKyhIBZ9/pub?gid=1482920351&single=true&output=csv",
+    "People": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0vDnx6GNnVydTb2F6BRMqjujRnz35VDhDXMuBKA30LHis2htkbe1YA6nnV7soczDLoRInyKyhIBZ9/pub?gid=1457587993&single=true&output=csv",
+    "Sections": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0vDnx6GNnVydTb2F6BRMqjujRnz35VDhDXMuBKA30LHis2htkbe1YA6nnV7soczDLoRInyKyhIBZ9/pub?gid=41147553&single=true&output=csv",
+    "Monuments": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0vDnx6GNnVydTb2F6BRMqjujRnz35VDhDXMuBKA30LHis2htkbe1YA6nnV7soczDLoRInyKyhIBZ9/pub?gid=1746063940&single=true&output=csv"
   },
   "site_title": "Mount Saint Mary's Cemetery",
   "public": true
