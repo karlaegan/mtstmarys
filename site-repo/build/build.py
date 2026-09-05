@@ -145,28 +145,16 @@ def validate(lots, people, sections, lot_geo, sec_geo) -> list[str]:
     else:
         checks.append(f"People: {len(people)} rows, all lot_id resolve")
 
-    bad = sorted({l["status"] for l in lots} - STATUSES)
+    # Validate the sheet's RAW status against the allowed set, but treat a blank
+    # as allowed (it becomes "open" when status is derived below). A typo such as
+    # "sould" is still a clear failure. burial_count and the "occupied" status
+    # are DERIVED from People rows at build time, so they are not checked here.
+    bad = sorted({l["status"].strip() for l in lots
+                  if l["status"].strip()} - STATUSES)
     if bad:
-        errors.append(f"status values outside the allowed set: {bad}")
+        errors.append(f"status values outside the allowed set (a typo?): {bad}")
     else:
         checks.append("Lots: all status values in the allowed set")
-
-    counts: dict[str, int] = {}
-    for p in people:
-        counts[p["lot_id"]] = counts.get(p["lot_id"], 0) + 1
-    bad_cnt = [l["lot_id"] for l in lots
-               if str(l.get("burial_count", "")).strip()
-               and int(l["burial_count"]) != counts.get(l["lot_id"], 0)]
-    if bad_cnt:
-        errors.append(f"burial_count does not match People rows for: {bad_cnt[:10]}")
-    else:
-        checks.append("Lots: burial_count matches People")
-    bad_occ = [l["lot_id"] for l in lots
-               if (counts.get(l["lot_id"], 0) > 0) != (l["status"] == "occupied")]
-    if bad_occ:
-        errors.append(f"status 'occupied' does not match People rows for: {bad_occ[:10]}")
-    else:
-        checks.append("Lots: occupied status matches People rows")
 
     leak = {"purchaser", "price", "paid", "year_sold"} & set(people[0].keys())
     if leak:
@@ -313,6 +301,23 @@ def build_site(private: bool) -> None:
     by_lot: dict[str, list[dict]] = {}
     for p in people:
         by_lot.setdefault(p["lot_id"], []).append(p)
+
+    # Derive status and burial_count so a non-technical board never has to keep
+    # them in sync by hand. The People tab is the source of truth for burials:
+    # a lot's burial_count is always the number of People rows on it, and any lot
+    # with at least one People row is "occupied" no matter what the Lots tab says.
+    # The Lots.status column only matters for lots with NO burials, where it may
+    # be sold / reserved / unusable / open (blank or unknown becomes "open").
+    for l in lots:
+        rows = len(by_lot.get(l["lot_id"], []))
+        l["burial_count"] = rows                       # overwrite the sheet value
+        raw = l["status"].strip().lower()
+        if rows > 0:
+            l["status"] = "occupied"
+        elif raw in ("sold", "reserved", "unusable", "open", "unknown"):
+            l["status"] = raw
+        else:
+            l["status"] = "open"                        # blank or unrecognized
 
     # geometry by lot
     rings: dict[str, list] = {}
