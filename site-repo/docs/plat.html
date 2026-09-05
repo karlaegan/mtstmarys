@@ -25,7 +25,11 @@ a{color:var(--accent)}
 header{padding:16px 22px 12px;display:flex;flex-wrap:wrap;gap:12px 26px;align-items:flex-end;border-bottom:1px solid var(--line-2);background:var(--paper)}
 h1{margin:0;font-size:20px;font-weight:600;letter-spacing:-.01em}
 .sub{color:var(--ink-2);font-size:12.5px;margin-top:2px}
-header nav{display:flex;gap:14px;font-size:13px;margin-left:auto}
+header nav{display:flex;gap:14px;font-size:13px;margin-left:auto;align-items:center}
+.views{display:flex;gap:4px;background:var(--ground);padding:3px;border-radius:5px;border:1px solid var(--line-2)}
+.views a,.views span{font:inherit;font-size:13px;padding:5px 13px;border-radius:3px;color:var(--ink-2);text-decoration:none;cursor:pointer}
+.views .on{background:var(--accent);color:var(--accent-ink)}
+.views a:focus-visible{outline:2px solid var(--accent)}
 .search{display:flex;flex-direction:column;gap:4px;min-width:260px;flex:1;max-width:400px}
 .search label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2)}
 .search input{font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--line);border-radius:4px;background:var(--open);color:var(--ink);width:100%}
@@ -94,7 +98,12 @@ footer{padding:0 22px 30px;font-size:12px;color:var(--ink-2);max-width:78ch}
     <span><i class="sw" style="background:var(--open)"></i>Open</span>
     <span><i class="sw" style="background:var(--hit);border-color:var(--hit)"></i>Search match</span>
   </div>
-  <nav><a href="index.html">Map view</a><a href="about.html">About</a></nav>
+  <nav>
+    <span class="views" role="group" aria-label="View">
+      <a href="index.html">Aerial</a><span class="on" aria-current="page">Plat</span>
+    </span>
+    <a href="about.html">About</a>
+  </nav>
 </header>
 <main>
   <p class="notice">Positions are approximate. This plat is drawn from the paper section maps, not from a survey. Hover a lot for details, click to pin it, or open the map view to see the lots on the aerial photo.</p>

@@ -19,7 +19,11 @@ body{margin:0;background:var(--ground);color:var(--ink);font-family:"IBM Plex Sa
 a{color:var(--accent)}
 header{padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;background:var(--paper);border-bottom:1px solid var(--line-2)}
 h1{margin:0;font-size:18px;font-weight:600;letter-spacing:-.01em}
-header nav{display:flex;gap:14px;font-size:13px;margin-left:auto}
+header nav{display:flex;gap:14px;font-size:13px;margin-left:auto;align-items:center}
+.views{display:flex;gap:4px;background:var(--ground);padding:3px;border-radius:5px;border:1px solid var(--line-2)}
+.views a,.views span{font:inherit;font-size:13px;padding:5px 13px;border-radius:3px;color:var(--ink-2);text-decoration:none;cursor:pointer}
+.views .on{background:var(--accent);color:var(--accent-ink)}
+.views a:focus-visible{outline:2px solid var(--accent)}
 .notice{background:var(--hit-soft);color:#5E2415;padding:7px 16px;font-size:12.5px;border-bottom:1px solid var(--line-2)}
 .wrap{display:flex;height:calc(100vh - 108px);min-height:360px}
 #map{flex:1;min-width:0;background:#2b2f2c}
@@ -55,6 +59,16 @@ input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px}
 .seclabel.col{display:none}
 body.zoomed .seclabel.col{display:block}
 .locate-btn{background:#fff;width:34px;height:34px;line-height:34px;text-align:center;font-size:16px;cursor:pointer;display:block;color:var(--ink)}
+.align-btn{background:#fff;width:34px;height:34px;line-height:34px;text-align:center;font-size:16px;cursor:pointer;display:block;color:var(--ink)}
+.align-panel{background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:9px 11px;font-size:12px;color:var(--ink);box-shadow:0 2px 8px rgba(0,0,0,.25);width:216px}
+.align-panel h3{margin:0 0 7px;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-2);font-weight:600}
+.align-panel .grp{display:flex;align-items:center;gap:5px;margin-bottom:6px}
+.align-panel .grp b{flex:none;width:48px;font-weight:500;color:var(--ink-2);font-size:11.5px}
+.align-panel button.ab{font:inherit;font-size:12px;min-width:26px;padding:3px 7px;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:3px;cursor:pointer}
+.align-panel button.ab:focus-visible{outline:2px solid var(--accent)}
+.align-panel .read{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;line-height:1.5;color:var(--ink-2);margin-top:6px;word-break:break-word}
+.align-panel .copyline{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;background:var(--ground);border:1px solid var(--line-2);border-radius:3px;padding:5px 6px;margin-top:6px;word-break:break-all;-webkit-user-select:all;user-select:all}
+@media (prefers-color-scheme: dark){.locate-btn,.align-btn{background:#2b2f2c;color:#e6eae3}.align-panel button.ab{background:#2b2f2c;color:#e6eae3}}
 footer{padding:14px 16px 26px;font-size:12px;color:var(--ink-2);background:var(--paper);border-top:1px solid var(--line-2)}
 </style>
 </head>
@@ -64,7 +78,12 @@ footer{padding:14px 16px 26px;font-size:12px;color:var(--ink-2);background:var(-
     <h1>Mount Saint Mary's Cemetery</h1>
     <div style="font-size:12.5px;color:var(--ink-2)">Shackleford, Saline County, Missouri</div>
   </div>
-  <nav><a href="plat.html">Plat view</a><a href="about.html">About</a></nav>
+  <nav>
+    <span class="views" role="group" aria-label="View">
+      <span class="on" aria-current="page">Aerial</span><a href="plat.html">Plat</a>
+    </span>
+    <a href="about.html">About</a>
+  </nav>
 </header>
 <p class="notice" id="notice">Positions are approximate. The lot outlines are traced from the paper section maps, not from a survey, and can be off by 10 to 20 feet on the ground.</p>
 <div class="wrap">
@@ -97,15 +116,21 @@ if (!window.L) { document.write('<scr' + 'ipt src="vendor/leaflet/leaflet.js"><\
     hit:      {color:"#B94A2C", weight:2, opacity:1,    fillColor:"#B94A2C", fillOpacity:0.80}
   };
   var map = L.map("map", {zoomControl:true, preferCanvas:true, maxZoom:22});
+  // Aerial photo is the only base layer. The cemetery is deep in the country,
+  // so a street map is useless; OpenStreetMap is kept only as a silent fallback
+  // if the Esri imagery fails to load, with no user-facing layers control.
   var esri = L.tileLayer(
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
     {maxNativeZoom:19, maxZoom:22,
      attribution:"Tiles &copy; Esri. Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community"});
-  var osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    {maxNativeZoom:19, maxZoom:22, attribution:"&copy; OpenStreetMap contributors"});
   esri.addTo(map);
-  L.control.layers({"Aerial photo (Esri)":esri, "Street map (OpenStreetMap)":osm}, null,
-                   {position:"topright"}).addTo(map);
+  var osmAdded = false;
+  esri.on("tileerror", function () {
+    if (osmAdded) { return; }
+    osmAdded = true;
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {maxNativeZoom:19, maxZoom:22, attribution:"&copy; OpenStreetMap contributors"}).addTo(map);
+  });
   map.setView([39.1367, -93.3058], 18);
 
   var Locate = L.Control.extend({
@@ -134,9 +159,130 @@ if (!window.L) { document.write('<scr' + 'ipt src="vendor/leaflet/leaflet.js"><\
       "Your device did not share a location. Check location permission for this site.";
   });
 
+  var Align = L.Control.extend({
+    options:{position:"topleft"},
+    onAdd:function () {
+      var d = L.DomUtil.create("div", "leaflet-bar");
+      var a = L.DomUtil.create("a", "align-btn", d);
+      a.href = "#"; a.title = "Align the grid to the photo";
+      a.setAttribute("role", "button"); a.setAttribute("aria-label", "Align the grid to the photo");
+      a.textContent = "#";
+      var panel = L.DomUtil.create("div", "align-panel", d);
+      panel.hidden = true;
+      panel.innerHTML =
+        "<h3>Align grid</h3>" +
+        "<div class=\"grp\"><b>Move</b>" +
+        "<button class=\"ab\" data-n=\"0,-2\" title=\"west\">W</button>" +
+        "<button class=\"ab\" data-n=\"0,2\" title=\"east\">E</button>" +
+        "<button class=\"ab\" data-n=\"2,0\" title=\"north\">N</button>" +
+        "<button class=\"ab\" data-n=\"-2,0\" title=\"south\">S</button></div>" +
+        "<div class=\"grp\"><b>Rotate</b>" +
+        "<button class=\"ab\" data-r=\"-0.25\">&#8630;</button>" +
+        "<button class=\"ab\" data-r=\"0.25\">&#8631;</button></div>" +
+        "<div class=\"grp\"><b>Scale</b>" +
+        "<button class=\"ab\" data-s=\"-0.5\">&minus;</button>" +
+        "<button class=\"ab\" data-s=\"0.5\">+</button>" +
+        "<button class=\"ab\" data-reset=\"1\">Reset</button></div>" +
+        "<div class=\"read\" id=\"alignRead\"></div>" +
+        "<div style=\"font-size:10.5px;color:var(--ink-2);margin-top:8px\">Send these to your records keeper to make it permanent:</div>" +
+        "<div class=\"copyline\" id=\"alignCopy\"></div>";
+      L.DomEvent.disableClickPropagation(d);
+      L.DomEvent.disableScrollPropagation(d);
+      L.DomEvent.on(a, "click", function (e) {
+        L.DomEvent.stop(e);
+        panel.hidden = !panel.hidden;
+      });
+      L.DomEvent.on(panel, "click", function (e) {
+        var b = e.target.closest("button");
+        if (!b) { return; }
+        L.DomEvent.stop(e);
+        if (b.dataset.n) {
+          var parts = b.dataset.n.split(",");
+          align.n += Number(parts[0]); align.e += Number(parts[1]);
+        } else if (b.dataset.r) {
+          align.rot += Number(b.dataset.r);
+        } else if (b.dataset.s) {
+          align.scale += Number(b.dataset.s);
+        } else if (b.dataset.reset) {
+          align = {n:ALIGN_DEFAULT.n, e:ALIGN_DEFAULT.e, rot:ALIGN_DEFAULT.rot, scale:ALIGN_DEFAULT.scale};
+        }
+        applyAlign();
+      });
+      return d;
+    }
+  });
+  map.addControl(new Align());
+
   var layers = {}, DATA = null, selected = null, hits = [];
   var card = document.getElementById("card");
   var results = document.getElementById("results");
+
+  // ---------------------------------------------------------------- alignment
+  // The lot and section shapes in public.json were placed north-up from a single
+  // anchor (the northwest inside corner of the loop drive) and are not surveyed,
+  // so they can sit slightly off the aerial photo. This control lets a viewer
+  // nudge, rotate and scale the WHOLE grid over the imagery until it lines up.
+  // The transform is applied to a COPY of the coordinates at draw time; the
+  // source GeoJSON / public.json is never mutated, and the adjustment lives only
+  // in this viewer's browser (localStorage).
+  //
+  // TO BAKE A FIT IN PERMANENTLY so every viewer sees the aligned grid:
+  // send the readout numbers to the records keeper, who updates data/georef.json
+  // (shift the "anchor" lat/lon by offsetN/offsetE, add a "rotation_degrees"
+  // field, and multiply "scale"), then regenerates data/lots.geojson and
+  // data/sections.geojson and reruns build/build.py. After that these per-viewer
+  // adjustments should be reset to zero.
+  var ALIGN_KEY = "mtstmary-align-v1";
+  var ALIGN_DEFAULT = {n:0, e:0, rot:0, scale:100};
+  var align = {n:0, e:0, rot:0, scale:100};
+  try {
+    var saved = JSON.parse(localStorage.getItem(ALIGN_KEY) || "null");
+    if (saved && typeof saved.n === "number") { align = saved; }
+  } catch (e) { /* storage blocked or bad value: start at defaults */ }
+
+  var lotBase = {};   // id -> array of [lat, lon] base corners
+  var secBase = {};   // key -> {corners: [...], center: [lat, lon]}
+  var secLayers = {}; // key -> {rect: polygon, label: marker}
+
+  function transform(lat, lon) {
+    var a = DATA.meta.anchor, sc = DATA.meta.scale;
+    // to a local flat plane in feet, relative to the anchor
+    var dx = (lon - a.lon) * sc.ft_per_deg_lon;   // east
+    var dy = (lat - a.lat) * sc.ft_per_deg_lat;   // north
+    var k = align.scale / 100;
+    dx *= k; dy *= k;                              // scale about the anchor
+    var th = align.rot * Math.PI / 180;           // rotate about the anchor
+    var rx = dx * Math.cos(th) - dy * Math.sin(th);
+    var ry = dx * Math.sin(th) + dy * Math.cos(th);
+    rx += align.e; ry += align.n;                 // translate, feet E and N
+    return [a.lat + ry / sc.ft_per_deg_lat, a.lon + rx / sc.ft_per_deg_lon];
+  }
+  function applyAlign() {
+    if (!DATA) { return; }
+    Object.keys(lotBase).forEach(function (id) {
+      layers[id].setLatLngs(lotBase[id].map(function (c) { return transform(c[0], c[1]); }));
+    });
+    Object.keys(secBase).forEach(function (k) {
+      secLayers[k].rect.setLatLngs(secBase[k].corners.map(function (c) {
+        return transform(c[0], c[1]);
+      }));
+      var c = secBase[k].center;
+      secLayers[k].label.setLatLng(transform(c[0], c[1]));
+    });
+    updateAlignReadout();
+    try { localStorage.setItem(ALIGN_KEY, JSON.stringify(align)); }
+    catch (e) { /* storage blocked: adjustment still applies this session */ }
+  }
+  function updateAlignReadout() {
+    var r = document.getElementById("alignRead");
+    var c = document.getElementById("alignCopy");
+    if (!r) { return; }
+    r.textContent = "offset " + align.n.toFixed(0) + " ft N, " + align.e.toFixed(0) +
+      " ft E; rotation " + align.rot.toFixed(2) + " deg; scale " + align.scale.toFixed(1) + " percent";
+    c.textContent = "offsetN=" + align.n.toFixed(0) + " offsetE=" + align.e.toFixed(0) +
+      " rot=" + align.rot.toFixed(2) + " scale=" + align.scale.toFixed(1);
+  }
+  updateAlignReadout();
 
   function norm(st) {
     if (st === "unusable") { return "unusable"; }
@@ -217,17 +363,24 @@ if (!window.L) { document.write('<scr' + 'ipt src="vendor/leaflet/leaflet.js"><\
     var group = L.featureGroup();
     Object.keys(DATA.sections).forEach(function (k) {
       var s = DATA.sections[k];
-      var b = [[s.g[0][1], s.g[0][0]], [s.g[1][1], s.g[1][0]]];
-      L.rectangle(b, {color:"#ffffff", weight:1.6, opacity:0.85, dashArray:"6 4",
-                      fill:false, interactive:false}).addTo(map);
-      L.marker([(b[0][0] + b[1][0]) / 2, (b[0][1] + b[1][1]) / 2],
+      var w = s.g[0][0], so = s.g[0][1], e = s.g[1][0], no = s.g[1][1];
+      var corners = [[no, w], [no, e], [so, e], [so, w]];   // NW NE SE SW, [lat,lon]
+      var center = [(so + no) / 2, (w + e) / 2];
+      secBase[k] = {corners:corners, center:center};
+      var rect = L.polygon(corners.map(function (c) { return transform(c[0], c[1]); }),
+        {color:"#ffffff", weight:1.6, opacity:0.85, dashArray:"6 4", fill:false,
+         interactive:false}).addTo(map);
+      var label = L.marker(transform(center[0], center[1]),
         {interactive:false, icon:L.divIcon({className:"seclabel" + (s.newer ? " col" : ""),
          html:esc(k), iconSize:[20,16]})}).addTo(map);
+      secLayers[k] = {rect:rect, label:label};
     });
     Object.keys(DATA.lots).forEach(function (id) {
       var lot = DATA.lots[id];
-      var b = [[lot.g[0][1], lot.g[0][0]], [lot.g[1][1], lot.g[1][0]]];
-      var r = L.rectangle(b, baseStyle(id));
+      var w = lot.g[0][0], so = lot.g[0][1], e = lot.g[1][0], no = lot.g[1][1];
+      var corners = [[no, w], [no, e], [so, e], [so, w]];
+      lotBase[id] = corners;
+      var r = L.polygon(corners.map(function (c) { return transform(c[0], c[1]); }), baseStyle(id));
       r.on("click", function () { show(id); });
       r.bindTooltip(id + (lot.p && lot.p.length ? ": " + lot.p[0].name : ""), {sticky:true});
       r.addTo(map);
@@ -238,6 +391,7 @@ if (!window.L) { document.write('<scr' + 'ipt src="vendor/leaflet/leaflet.js"><\
       document.body.classList.toggle("zoomed", map.getZoom() >= 19);
     }
     map.on("zoomend", zoomClass);
+    applyAlign();   // apply any saved per-viewer alignment to the drawn copy
     map.fitBounds(L.latLngBounds(DATA.meta.bounds).pad(0.05));
     zoomClass();
   }
